@@ -124,6 +124,11 @@ def crear_actividad_h5p(
         },
     )
 
+    if activity_result.get("success") is False or not activity_result.get("coursemodule"):
+        raise RuntimeError("Moodle no confirmó la creación de la actividad H5P.")
+    if activity_result.get("courseid", courseid) != courseid:
+        raise RuntimeError("Moodle creó la actividad H5P en otro curso.")
+
     return {
         "success": True,
         "tipo": tipo,

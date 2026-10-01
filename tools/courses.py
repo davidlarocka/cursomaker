@@ -7,7 +7,7 @@ import requests
 from dotenv import load_dotenv
 
 
-load_dotenv()
+load_dotenv(Path(__file__).resolve().parent.parent / ".env")
 
 MOODLE_URL = os.getenv("MOODLE_URL")
 MOODLE_TOKEN = os.getenv("MOODLE_TOKEN")
@@ -394,26 +394,26 @@ def actualizar_pagina(coursemodule_id, nombre, contenido):
             "pero no pudo encontrarse posteriormente."
         )
 
-        if pagina["nombre"] != nombre:
-            raise RuntimeError(
-                "La página fue actualizada, pero el nombre guardado "
-                "en Moodle no coincide con el solicitado."
-            )
-
-        contenido_enviado = _normalizar_html_moodle(
-            contenido
+    if pagina["nombre"] != nombre:
+        raise RuntimeError(
+            "La página fue actualizada, pero el nombre guardado "
+            "en Moodle no coincide con el solicitado."
         )
 
-        contenido_guardado = _normalizar_html_moodle(
-            pagina["contenido"]
-        )
+    contenido_enviado = _normalizar_html_moodle(
+        contenido
+    )
 
-        if contenido_guardado != contenido_enviado:
-            raise RuntimeError(
-                "La página fue actualizada, pero el contenido "
-                "guardado en Moodle no coincide con el contenido "
-                "enviado después de normalizar las URLs de archivos."
-            )
+    contenido_guardado = _normalizar_html_moodle(
+        pagina["contenido"]
+    )
+
+    if contenido_guardado != contenido_enviado:
+        raise RuntimeError(
+            "La página fue actualizada, pero el contenido "
+            "guardado en Moodle no coincide con el contenido "
+            "enviado después de normalizar las URLs de archivos."
+        )
 
     return {
         "actualizada": True,

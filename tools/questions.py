@@ -1,7 +1,7 @@
 from tools.courses import _moodle_request
 
 
-def crear_categoria(nombre, parent=0):
+def crear_categoria(nombre, parent=0, courseid=None, idnumber=None):
     """
     Crea una categoría de preguntas en Moodle.
 
@@ -9,12 +9,14 @@ def crear_categoria(nombre, parent=0):
     devuelve la existente.
     """
 
+    params = {"name": nombre, "parent": parent}
+    if courseid is not None:
+        params = {"name": nombre, "courseid": courseid}
+        if idnumber is not None:
+            params["idnumber"] = idnumber
     return _moodle_request(
         "local_cursomaker_create_question_category",
-        {
-            "name": nombre,
-            "parent": parent,
-        },
+        params,
     )
 
 

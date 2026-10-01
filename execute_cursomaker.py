@@ -10,17 +10,18 @@ def main():
         help="Directorio del curso (ej: documents/omi110)",
     )
     parser.add_argument(
-        "--etapa", choices=("todo", "contenido", "assessment", "imagenes"), default="todo",
-        help="Etapas a ejecutar (por defecto: blueprints e imágenes).",
+        "--etapa", choices=("todo", "contenido", "assessment", "imagenes", "moodle"), default="todo",
+        help="Etapas a ejecutar (por defecto: pipeline completo, incluida ejecución Moodle).",
     )
+    parser.add_argument("--dry-run", action="store_true", help="Valida los artefactos Moodle sin modificar el servidor.")
     args = parser.parse_args()
 
     try:
-        contexto = ejecutar_cursomaker(args.curso, etapa=args.etapa)
+        contexto = ejecutar_cursomaker(args.curso, etapa=args.etapa, dry_run=args.dry_run)
     except (OSError, ValueError, RuntimeError) as error:
         parser.exit(1, f"Error: {error}\n")
 
-    print(f"Generación completada: {contexto.config.nombre}")
+    print(f"Proceso completado: {contexto.config.nombre}")
     print(f"Shortname: {contexto.config.shortname}")
     print(f"Assets: {contexto.assets_dir}")
     print(f"Output: {contexto.output_dir}")
@@ -33,7 +34,12 @@ def main():
         print(f"Mapeo visual: {contexto.image_mapping_path}")
         print(f"Render Blueprint: {contexto.render_blueprint_path}")
         print(f"Mapeo de subsecciones: {contexto.subsection_mapping_path}")
-    print("Ejecución Moodle pendiente de integración.")
+    if contexto.moodle_resultado:
+        print(f"Moodle: {contexto.moodle_resultado['estado']}")
+        if contexto.moodle_curso_id:
+            print(f"Curso Moodle ID: {contexto.moodle_curso_id}")
+            print(f"Resumen: {contexto.moodle_report_path}")
+            print(f"Actividades pendientes: {contexto.moodle_resultado['assessment']['pendientes']}")
 
 
 if __name__ == "__main__":

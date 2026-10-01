@@ -1,5 +1,5 @@
 from pathlib import Path
-from typing import Optional
+from typing import Optional, Dict, Any
 
 from pydantic import BaseModel
 
@@ -19,3 +19,6 @@ class ContextoCurso(BaseModel):
     image_mapping_path: Optional[Path] = None
     render_blueprint_path: Optional[Path] = None
     subsection_mapping_path: Optional[Path] = None
+    moodle_curso_id: Optional[int] = None
+    moodle_report_path: Optional[Path] = None
+    moodle_resultado: Optional[Dict[str, Any]] = None

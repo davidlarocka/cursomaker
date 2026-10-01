@@ -76,8 +76,13 @@ def test_default_ejecuta_ambos_en_orden(curso, monkeypatch):
         return contexto
 
     monkeypatch.setattr(orchestrator, "ejecutar_pipeline_imagenes", imagenes)
+    def moodle(contexto, dry_run=False):
+        etapas.append("moodle")
+        return contexto
+
+    monkeypatch.setattr(orchestrator, "ejecutar_pipeline_moodle", moodle)
     resultado = orchestrator.ejecutar_cursomaker(curso)
-    assert etapas == ["blueprint.json", "assessment_blueprint.json", "imagenes"]
+    assert etapas == ["blueprint.json", "assessment_blueprint.json", "imagenes", "moodle"]
     assert resultado.content_blueprint_path is not None
     assert resultado.assessment_blueprint_path is not None
 
