@@ -28,7 +28,9 @@ Las rutas de los PDF se resuelven desde la carpeta del curso.
 `assets/omi110/` y `output/omi110/` se crean desde la raíz del proyecto.
 
 Assessment se asigna a las secciones del Content Blueprint por título,
-ignorando diferencias de mayúsculas y espacios. Si los títulos difieren,
+ignorando diferencias de mayúsculas y espacios. También acepta el prefijo
+`Módulo I:` o `Módulo 1:` si coinciden el número del módulo y el título completo.
+Si los títulos difieren,
 indicar explícitamente el destino por número de módulo:
 
 ```json

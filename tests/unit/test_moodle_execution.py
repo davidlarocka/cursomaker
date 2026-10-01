@@ -226,3 +226,36 @@ def test_cli_dry_run_funciona_desde_otro_directorio(proyecto, tmp_path):
     assert resultado.returncode == 0, resultado.stderr
     assert "Moodle: validado" in resultado.stdout
     assert not (proyecto.output_dir / "execution_render_checkpoint.json").exists()
+
+
+@pytest.mark.parametrize("prefijo", ["Módulo I", "Módulo 1", "MÓDULO I"])
+def test_resuelve_prefijo_con_numero_y_titulo_completos(proyecto, prefijo):
+    from models.render_blueprint import CursoRender
+    render = CursoRender.model_validate_json((proyecto.output_dir / "blueprint_render.json").read_text())
+    assessment = AssessmentBlueprint.model_validate_json((proyecto.output_dir / "assessment_blueprint.json").read_text())
+    render.secciones[0].titulo = f"{prefijo}: Introducción al transporte de mercancías peligrosas"
+    assessment.modulos[0].titulo = "Introducción al transporte de mercancías peligrosas"
+    mapa = moodle_pipeline.resolver_modulo_secciones(proyecto.config, render, assessment)
+    assert mapa == {1: render.secciones[0].titulo}
+
+
+@pytest.mark.parametrize("titulo", ["Módulo II: Introducción", "Módulo I: Introducción extendida", "Módulo IIII: Introducción"])
+def test_prefijo_no_acepta_otro_numero_titulo_parcial_o_romano_invalido(proyecto, titulo):
+    from models.render_blueprint import CursoRender
+    render = CursoRender.model_validate_json((proyecto.output_dir / "blueprint_render.json").read_text())
+    assessment = AssessmentBlueprint.model_validate_json((proyecto.output_dir / "assessment_blueprint.json").read_text())
+    render.secciones[0].titulo = titulo
+    assessment.modulos[0].titulo = "Introducción"
+    with pytest.raises(ValueError, match="No se pudo asignar"):
+        moodle_pipeline.resolver_modulo_secciones(proyecto.config, render, assessment)
+
+
+def test_mapa_explicito_tiene_prioridad_sobre_prefijo(proyecto):
+    from models.render_blueprint import CursoRender
+    render = CursoRender.model_validate_json((proyecto.output_dir / "blueprint_render.json").read_text())
+    assessment = AssessmentBlueprint.model_validate_json((proyecto.output_dir / "assessment_blueprint.json").read_text())
+    render.secciones[0].titulo = "Módulo I: Introducción"
+    assessment.modulos[0].titulo = "Introducción"
+    proyecto.config.modulo_secciones = {1: "Otra sección"}
+    with pytest.raises(ValueError, match="No se pudo asignar"):
+        moodle_pipeline.resolver_modulo_secciones(proyecto.config, render, assessment)

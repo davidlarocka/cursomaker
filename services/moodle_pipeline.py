@@ -1,6 +1,7 @@
 """Preflight y coordinación de contenido y Assessment en Moodle."""
 import hashlib
 import json
+import re
 from pathlib import Path
 import unicodedata
 
@@ -19,6 +20,25 @@ def normalizar_titulo(titulo):
     return " ".join(unicodedata.normalize("NFKC", titulo).casefold().split())
 
 
+def separar_prefijo_modulo(titulo):
+    coincidencia = re.fullmatch(r"m[oó]dulo\s+(\d+|[ivxlcdm]+)\s*:\s*(.+)", normalizar_titulo(titulo))
+    if not coincidencia:
+        return None
+    etiqueta, texto = coincidencia.groups()
+    if etiqueta.isdigit():
+        numero = int(etiqueta)
+    else:
+        if not re.fullmatch(r"m{0,3}(cm|cd|d?c{0,3})(xc|xl|l?x{0,3})(ix|iv|v?i{0,3})", etiqueta):
+            return None
+        valores = {"i": 1, "v": 5, "x": 10, "l": 50, "c": 100, "d": 500, "m": 1000}
+        numero, mayor = 0, 0
+        for letra in reversed(etiqueta):
+            valor = valores[letra]
+            numero += -valor if valor < mayor else valor
+            mayor = max(mayor, valor)
+    return numero, texto
+
+
 def resolver_modulo_secciones(config, render, assessment):
     nombres = {}
     for seccion in render.secciones:
@@ -30,6 +50,13 @@ def resolver_modulo_secciones(config, render, assessment):
     for modulo in assessment.modulos:
         titulo = config.modulo_secciones.get(modulo.numero, modulo.titulo)
         destino = nombres.get(normalizar_titulo(titulo))
+        if destino is None and modulo.numero not in config.modulo_secciones:
+            prefijo = separar_prefijo_modulo(modulo.titulo)
+            esperado = prefijo[1] if prefijo and prefijo[0] == modulo.numero else normalizar_titulo(modulo.titulo)
+            candidatos = [original for original in nombres.values()
+                          if separar_prefijo_modulo(original) == (modulo.numero, esperado)]
+            if len(candidatos) == 1:
+                destino = candidatos[0]
         if destino is None:
             raise ValueError(
                 f"No se pudo asignar módulo {modulo.numero} ({modulo.titulo}) a una sección. "
