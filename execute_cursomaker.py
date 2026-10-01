@@ -1,52 +1,26 @@
-from pathlib import Path
 import argparse
 
-
-def etapa(numero: int, total: int, titulo: str):
-    print()
-    print("=" * 70)
-    print(f"ETAPA {numero}/{total}")
-    print(titulo.upper())
-    print("=" * 70)
+from services.orchestrator import ejecutar_cursomaker
 
 
 def main():
-
-    parser = argparse.ArgumentParser(
-        description="CursoMaker Orchestrator"
-    )
-
+    parser = argparse.ArgumentParser(description="CursoMaker Orchestrator")
     parser.add_argument(
         "curso",
-        help="Directorio del curso (ej: courses/omi110)"
+        help="Directorio del curso (ej: documents/omi110)",
     )
-
     args = parser.parse_args()
 
-    curso_dir = Path(args.curso)
+    try:
+        contexto = ejecutar_cursomaker(args.curso)
+    except (OSError, ValueError) as error:
+        parser.exit(1, f"Error: {error}\n")
 
-    if not curso_dir.exists():
-        raise FileNotFoundError(curso_dir)
-
-    TOTAL_ETAPAS = 9
-
-    etapa(1, TOTAL_ETAPAS, "Carga de configuración")
-
-    etapa(2, TOTAL_ETAPAS, "Generación Content Blueprint")
-
-    etapa(3, TOTAL_ETAPAS, "Generación Assessment Blueprint")
-
-    etapa(4, TOTAL_ETAPAS, "Análisis de imágenes")
-
-    etapa(5, TOTAL_ETAPAS, "Mapeo de imágenes")
-
-    etapa(6, TOTAL_ETAPAS, "Validaciones")
-
-    etapa(7, TOTAL_ETAPAS, "Ejecución de contenido")
-
-    etapa(8, TOTAL_ETAPAS, "Ejecución Assessment")
-
-    etapa(9, TOTAL_ETAPAS, "Resumen final")
+    print(f"Preparación completada: {contexto.config.nombre}")
+    print(f"Shortname: {contexto.config.shortname}")
+    print(f"Assets: {contexto.assets_dir}")
+    print(f"Output: {contexto.output_dir}")
+    print("Generación de blueprints y ejecución Moodle pendientes de integración.")
 
 
 if __name__ == "__main__":

@@ -8,5 +8,4 @@ __pycache__/
 
 documents/
 assets/
-output/.env
-.venv/
+output/
