@@ -1,16 +1,13 @@
 import os
+from pathlib import Path
 
 from dotenv import load_dotenv
 from openai import OpenAI
 
 from models.assessment_blueprint import AssessmentBlueprint
-
-
-load_dotenv()
-
-client = OpenAI(
-    api_key=os.getenv("OPENAI_API_KEY")
-)
+from models.contexto_curso import ContextoCurso
+from services.documents import extraer_texto_pdf, construir_texto_documento
+from services.blueprint_store import guardar_blueprint
 
 
 def generar_assessment_blueprint(texto_documento):
@@ -23,6 +20,12 @@ def generar_assessment_blueprint(texto_documento):
         "🧠 Analizando documento de actividades "
         "y evaluaciones..."
     )
+
+    load_dotenv(Path(__file__).resolve().parent.parent / ".env")
+    api_key = os.getenv("OPENAI_API_KEY")
+    if not api_key:
+        raise ValueError("Falta OPENAI_API_KEY en el entorno o en el archivo .env.")
+    client = OpenAI(api_key=api_key)
 
     response = client.responses.parse(
         model="gpt-5.6",
@@ -74,3 +77,20 @@ def generar_assessment_blueprint(texto_documento):
         )
 
     return response.output_parsed
+
+
+def generar_assessment_desde_actividades(contexto: ContextoCurso) -> Path:
+    """Genera las actividades del documento configurado y guarda el blueprint."""
+    documento = extraer_texto_pdf(contexto.config.actividades)
+    texto = construir_texto_documento(documento)
+    if not texto.strip():
+        raise ValueError("El documento de actividades no contiene texto extraíble.")
+
+    blueprint = generar_assessment_blueprint(texto)
+    if not blueprint.modulos or not any(modulo.actividades for modulo in blueprint.modulos):
+        raise ValueError("El Assessment Blueprint generado no contiene actividades.")
+    blueprint = blueprint.model_copy(update={
+        "curso": contexto.config.nombre,
+        "documento_fuente": documento["archivo"],
+    })
+    return guardar_blueprint(contexto.output_dir / "assessment_blueprint.json", blueprint)

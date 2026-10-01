@@ -9,19 +9,26 @@ def main():
         "curso",
         help="Directorio del curso (ej: documents/omi110)",
     )
+    parser.add_argument(
+        "--etapa", choices=("todo", "contenido", "assessment"), default="todo",
+        help="Etapas a ejecutar (por defecto: ambos blueprints).",
+    )
     args = parser.parse_args()
 
     try:
-        contexto = ejecutar_cursomaker(args.curso)
+        contexto = ejecutar_cursomaker(args.curso, etapa=args.etapa)
     except (OSError, ValueError, RuntimeError) as error:
         parser.exit(1, f"Error: {error}\n")
 
-    print(f"Content Blueprint completado: {contexto.config.nombre}")
+    print(f"Generación completada: {contexto.config.nombre}")
     print(f"Shortname: {contexto.config.shortname}")
     print(f"Assets: {contexto.assets_dir}")
     print(f"Output: {contexto.output_dir}")
-    print(f"Content Blueprint: {contexto.content_blueprint_path}")
-    print("Assessment, imágenes y ejecución Moodle pendientes de integración.")
+    if contexto.content_blueprint_path:
+        print(f"Content Blueprint: {contexto.content_blueprint_path}")
+    if contexto.assessment_blueprint_path:
+        print(f"Assessment Blueprint: {contexto.assessment_blueprint_path}")
+    print("Imágenes y ejecución Moodle pendientes de integración.")
 
 
 if __name__ == "__main__":

@@ -4,6 +4,7 @@ from typing import Union
 from models.contexto_curso import ContextoCurso
 from services.config_loader import cargar_config
 from services.blueprint_generator import generar_content_blueprint
+from services.assessment_blueprint_generator import generar_assessment_desde_actividades
 
 
 PROYECTO_DIR = Path(__file__).resolve().parent.parent
@@ -24,8 +25,13 @@ def preparar_curso(curso_dir: Union[str, Path]) -> ContextoCurso:
     return contexto
 
 
-def ejecutar_cursomaker(curso_dir: Union[str, Path]) -> ContextoCurso:
+def ejecutar_cursomaker(curso_dir: Union[str, Path], etapa: str = "todo") -> ContextoCurso:
     """Ejecuta las etapas integradas del pipeline oficial."""
+    if etapa not in ("todo", "contenido", "assessment"):
+        raise ValueError(f"Etapa no soportada: {etapa}")
     contexto = preparar_curso(curso_dir)
-    contexto.content_blueprint_path = generar_content_blueprint(contexto)
+    if etapa in ("todo", "contenido"):
+        contexto.content_blueprint_path = generar_content_blueprint(contexto)
+    if etapa in ("todo", "assessment"):
+        contexto.assessment_blueprint_path = generar_assessment_desde_actividades(contexto)
     return contexto

@@ -7,6 +7,7 @@ from openai import OpenAI
 from models.blueprint import CursoBlueprint
 from models.contexto_curso import ContextoCurso
 from services.documents import extraer_texto_pdf, construir_texto_documento
+from services.blueprint_store import guardar_blueprint
 
 def generar_blueprint(texto_documento):
     """
@@ -79,11 +80,4 @@ def generar_content_blueprint(contexto: ContextoCurso) -> Path:
         identidad["descripcion"] = contexto.config.descripcion
     blueprint = blueprint.model_copy(update=identidad)
 
-    salida = contexto.output_dir / "blueprint.json"
-    temporal = salida.with_suffix(".json.tmp")
-    try:
-        temporal.write_text(blueprint.model_dump_json(indent=2), encoding="utf-8")
-        temporal.replace(salida)
-    finally:
-        temporal.unlink(missing_ok=True)
-    return salida
+    return guardar_blueprint(contexto.output_dir / "blueprint.json", blueprint)

@@ -14,3 +14,4 @@ class ContextoCurso(BaseModel):
     assets_dir: Path
     output_dir: Path
     content_blueprint_path: Optional[Path] = None
+    assessment_blueprint_path: Optional[Path] = None

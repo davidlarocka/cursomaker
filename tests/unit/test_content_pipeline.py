@@ -42,7 +42,7 @@ def test_pipeline_extrae_pdf_y_guarda_identidad_configurada(curso, monkeypatch):
         return blueprint_generado()
 
     monkeypatch.setattr(blueprint_generator, "generar_blueprint", generar)
-    contexto = orchestrator.ejecutar_cursomaker(curso)
+    contexto = orchestrator.ejecutar_cursomaker(curso, etapa="contenido")
     resultado = CursoBlueprint.model_validate_json(
         contexto.content_blueprint_path.read_text(encoding="utf-8")
     )
@@ -67,7 +67,7 @@ def test_fallo_de_generacion_conserva_blueprint_anterior(curso, monkeypatch):
 
     monkeypatch.setattr(blueprint_generator, "generar_blueprint", fallar)
     with pytest.raises(RuntimeError, match="Fallo del proveedor"):
-        orchestrator.ejecutar_cursomaker(curso)
+        orchestrator.ejecutar_cursomaker(curso, etapa="contenido")
     assert salida.read_text(encoding="utf-8") == anterior
 
 
@@ -81,12 +81,12 @@ def test_manual_sin_texto_no_llama_al_modelo(curso, monkeypatch):
 
     monkeypatch.setattr(blueprint_generator, "generar_blueprint", no_debe_llamarse)
     with pytest.raises(ValueError, match="no contiene texto"):
-        orchestrator.ejecutar_cursomaker(curso)
+        orchestrator.ejecutar_cursomaker(curso, etapa="contenido")
 
 
 def test_rechaza_blueprint_sin_secciones(curso, monkeypatch):
     vacio = blueprint_generado().model_copy(update={"secciones": []})
     monkeypatch.setattr(blueprint_generator, "generar_blueprint", lambda texto: vacio)
     with pytest.raises(ValueError, match="no contiene secciones"):
-        orchestrator.ejecutar_cursomaker(curso)
+        orchestrator.ejecutar_cursomaker(curso, etapa="contenido")
     assert not (curso.parent.parent / "output" / "omi110" / "blueprint.json").exists()
