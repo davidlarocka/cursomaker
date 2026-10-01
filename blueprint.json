@@ -1,0 +1,312 @@
+{
+  "nombre": "Curso Modelo OMI 1.41: Formación en Control de Multitudes en los Buques de Pasaje",
+  "shortname": "OMI141-CM-BP",
+  "descripcion": "Curso dirigido a la formación del personal que presta asistencia a pasajeros en buques de pasaje. Aborda el marco normativo internacional y nacional, las responsabilidades de la tripulación, la organización de los procedimientos de emergencia, el control de multitudes y la asistencia durante reuniones, evacuaciones, embarques y desembarques.",
+  "objetivos": [
+    "Organizar procedimientos de emergencia a bordo de acuerdo con los planes, alarmas y funciones asignadas.",
+    "Guiar y controlar grupos de pasajeros durante situaciones de emergencia.",
+    "Mantener comunicaciones claras, firmes y tranquilizadoras con los pasajeros.",
+    "Aplicar técnicas de liderazgo orientadas a evitar el pánico colectivo y mantener el orden.",
+    "Asistir a niños, adultos mayores, personas con discapacidad y pasajeros con movilidad reducida.",
+    "Conducir a los pasajeros hacia las estaciones de reunión, embarque y medios de salvamento.",
+    "Utilizar los equipos pertinentes para atender y proteger a los pasajeros durante una emergencia.",
+    "Cumplir las responsabilidades asignadas en el Cuadro de Obligaciones del buque."
+  ],
+  "secciones": [
+    {
+      "titulo": "Presentación del curso",
+      "contenidos": [
+        {
+          "tipo": "pagina",
+          "titulo": "Introducción al Curso Modelo OMI 1.41",
+          "contenido": "<h2>Propósito del curso</h2><p>El Curso Modelo OMI 1.41 fue desarrollado para proporcionar a las tripulaciones de buques de pasaje las competencias necesarias para gestionar multitudes, asistir a los pasajeros y actuar eficazmente durante emergencias. Su contenido responde a los requisitos del Convenio STCW, especialmente a la Regla V/2 y la Sección A-V/2.</p><h3>Importancia de la formación</h3><p>Los accidentes marítimos han demostrado que la pérdida de vidas no siempre se debe únicamente al siniestro inicial. También puede estar relacionada con la incapacidad para controlar a grandes grupos de personas sometidas al miedo, la incertidumbre y la desinformación. Una tripulación entrenada puede marcar la diferencia entre una evacuación ordenada y una tragedia.</p><h3>Competencias centrales</h3><ul><li>Organizar procedimientos de emergencia.</li><li>Guiar y controlar grandes grupos de pasajeros.</li><li>Mantener comunicaciones claras y tranquilizadoras.</li><li>Evitar el pánico colectivo.</li><li>Asistir a niños, adultos mayores y personas con discapacidad.</li><li>Conducir a los pasajeros hacia estaciones de reunión y embarque.</li><li>Aplicar técnicas de liderazgo durante emergencias.</li></ul><p>La tripulación debe actuar como un factor estabilizador, transmitiendo confianza y control ante reacciones de miedo, negación, estrés o conducta irracional.</p>",
+          "paginas_fuente": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Módulo I. Marco normativo y responsabilidades del personal",
+      "contenidos": [
+        {
+          "tipo": "pagina",
+          "titulo": "Accidentes históricos y lecciones para la gestión de multitudes",
+          "contenido": "<h2>Antecedentes del Curso OMI 1.41</h2><p>Los accidentes del Titanic, Scandinavian Star, Estonia y Costa Concordia demostraron que la seguridad de los pasajeros depende tanto de la integridad técnica del buque como de la capacidad de la tripulación para liderar, comunicar y controlar a las personas durante una emergencia.</p><h3>RMS Titanic, 1912</h3><p>La falta de entrenamiento, la información contradictoria, la escasez de simulacros y una evacuación desorganizada impidieron que muchos pasajeros comprendieran a tiempo la gravedad de la situación.</p><ul><li>Importancia de los procedimientos de reunión.</li><li>Comunicación clara y oportuna.</li><li>Liderazgo visible.</li><li>Familiarización con los equipos de salvamento.</li></ul><h3>Scandinavian Star, 1990</h3><p>El incendio causó 159 fallecidos. Las barreras idiomáticas y la falta de orientación efectiva evidenciaron la necesidad de comunicación multilingüe, orientación activa, control de los flujos y asistencia a personas vulnerables.</p><h3>MS Estonia, 1994</h3><p>El naufragio causó 852 víctimas fatales. Muchos pasajeros desconocían las rutas de evacuación, se produjo pánico colectivo y la escora dificultó el movimiento.</p><h3>Costa Concordia, 2012</h3><p>Las investigaciones identificaron retrasos en la declaración de emergencia, información contradictoria, confusión en los puntos de reunión y falta de liderazgo efectivo.</p><h3>Lección general</h3><p>La preparación de la tripulación, la rapidez de organización, la claridad de las comunicaciones y la aplicación oportuna de los procedimientos son factores determinantes para proteger la vida humana.</p>",
+          "paginas_fuente": [
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "tipo": "pagina",
+          "titulo": "Convenio SOLAS y seguridad de los buques de pasaje",
+          "contenido": "<h2>Convenio SOLAS</h2><p>SOLAS corresponde a <em>Safety of Life at Sea</em> y se traduce como Convenio Internacional para la Seguridad de la Vida Humana en el Mar. Es el principal instrumento internacional de la Organización Marítima Internacional para establecer normas mínimas de construcción, equipamiento, operación y protección de los buques.</p><blockquote><p>Su objetivo es garantizar la seguridad de la vida humana en el mar mediante normas internacionales aplicables a los buques.</p></blockquote><p>SOLAS establece requisitos técnicos y operacionales, mientras que STCW determina la formación y competencia que necesita la tripulación para aplicarlos.</p><h3>Exigencias para buques de pasaje</h3><ul><li>Evacuación masiva de pasajeros.</li><li>Organización de emergencias.</li><li>Control de multitudes.</li><li>Información y orientación a pasajeros.</li><li>Uso de equipos de salvamento.</li><li>Gestión de crisis y comportamiento humano.</li></ul><h3>Disposiciones vinculadas con la formación</h3><ul><li><strong>Regla 19:</strong> exige familiarización, ejercicios periódicos, asistencia a pasajeros y conocimiento del Cuadro de Obligaciones.</li><li><strong>Regla 30:</strong> requiere procedimientos claros para guiar pasajeros, organizar puntos de reunión, mantener el orden y coordinar evacuaciones.</li><li><strong>Regla 37:</strong> dispone que cada tripulante tenga funciones definidas, como controlar accesos, dirigir pasajeros, verificar compartimentos y asistir a personas con movilidad reducida.</li></ul>",
+          "paginas_fuente": [
+            7,
+            8
+          ]
+        },
+        {
+          "tipo": "pagina",
+          "titulo": "Convenio y Código STCW",
+          "contenido": "<h2>Formación, certificación y guardia para la gente de mar</h2><p>El Convenio STCW, denominado en inglés <em>Standards of Training, Certification and Watchkeeping</em>, establece los requisitos mínimos de formación y certificación que debe cumplir el personal marítimo para trabajar legalmente a bordo.</p><h3>Regla V/2</h3><p>Establece requisitos mínimos obligatorios para la formación y cualificación de capitanes, oficiales, marineros y demás personal que preste servicio en buques de pasaje.</p><h3>Sección A-V/2</h3><p>Incluye la formación obligatoria en control de multitudes para el personal que presta asistencia directa a pasajeros durante emergencias. Sus competencias comprenden:</p><ul><li>Controlar y dirigir multitudes.</li><li>Aplicar procedimientos de emergencia.</li><li>Mantener comunicaciones eficaces.</li><li>Tranquilizar a los pasajeros.</li><li>Reducir situaciones de pánico.</li><li>Guiar evacuaciones seguras.</li></ul><h3>Sección B-V/2</h3><p>Proporciona orientación para la aplicación práctica de las competencias y refuerza la necesidad de gestionar adecuadamente el comportamiento humano durante las emergencias.</p>",
+          "paginas_fuente": [
+            9,
+            10
+          ]
+        },
+        {
+          "tipo": "pagina",
+          "titulo": "Marco jurídico marítimo nacional chileno",
+          "contenido": "<h2>Estructura normativa nacional</h2><p>El marco jurídico chileno complementa los convenios SOLAS y STCW. DIRECTEMAR implementa y controla estas disposiciones mediante reglamentos, resoluciones, circulares y programas de formación aprobados.</p><h3>Decreto Ley N.º 2.222: Ley de Navegación</h3><p>Es la principal norma marítima chilena. Establece el régimen general de navegación y las facultades de la Autoridad Marítima para fiscalizar la seguridad, la protección de la vida humana y las condiciones de operación.</p><ul><li>Exige condiciones seguras de operación.</li><li>Faculta a DIRECTEMAR para inspeccionar y certificar naves.</li><li>Permite exigir convenios ratificados por Chile, incluidos SOLAS y STCW.</li></ul><h3>D.S. (M) N.º 1.340 bis de 1941</h3><p>Regula el orden, la seguridad, la disciplina y las responsabilidades del personal embarcado. Define responsabilidades del Capitán y oficiales y regula la actuación de la tripulación ante emergencias.</p><h3>TM-007, D.S. (M) N.º 127 de 2019</h3><p>Incorpora las exigencias STCW sobre formación, titulación y carrera profesional. Exige cursos OMI, reconoce competencias para naves de pasaje y permite controlar la vigencia de los certificados.</p><h3>Resoluciones y circulares de DIRECTEMAR</h3><p>Determinan requisitos operacionales, certificaciones, criterios de inspección y control de la capacitación. El manual menciona la Circular Marítima O-71/010 y la Circular Marítima A-32/001.</p>",
+          "paginas_fuente": [
+            10,
+            11,
+            12
+          ]
+        },
+        {
+          "tipo": "pagina",
+          "titulo": "Funciones y responsabilidades del personal en emergencias",
+          "contenido": "<h2>Función del personal designado</h2><p>El personal que asiste a los pasajeros no dirige la emergencia, función que corresponde al Capitán y a los oficiales designados. Su responsabilidad es ejecutar las tareas asignadas en el Cuadro de Obligaciones para controlar, orientar y asistir a los pasajeros.</p><ol><li><strong>Aplicar los planes de emergencia:</strong> conocer el plan, las alarmas, las rutas, las estaciones de reunión y embarque, y verificar los sectores asignados.</li><li><strong>Controlar multitudes:</strong> mantener la calma, dar instrucciones claras, ordenar el flujo y evitar empujones, bloqueos y aglomeraciones.</li><li><strong>Guiar a las estaciones de reunión:</strong> evitar rezagados, ayudar a personas desorientadas y controlar el movimiento.</li><li><strong>Asistir a pasajeros vulnerables:</strong> ayudar a niños, adultos mayores, mujeres embarazadas, personas lesionadas y personas con discapacidades o movilidad reducida.</li><li><strong>Comunicar eficazmente:</strong> emplear lenguaje simple, instrucciones breves y mensajes firmes, seguros y tranquilizadores.</li><li><strong>Reunir y contabilizar:</strong> mantener el orden, verificar listas, informar faltantes y reportar novedades al puesto de mando.</li><li><strong>Apoyar el uso de equipos de salvamento:</strong> conocer chalecos, aros, trajes de inmersión, botes y balsas.</li><li><strong>Cumplir el Cuadro de Obligaciones:</strong> ejecutar exactamente la función asignada sin improvisar.</li></ol>",
+          "paginas_fuente": [
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Módulo II. Organización de los procedimientos de emergencia",
+      "contenidos": [
+        {
+          "tipo": "pagina",
+          "titulo": "Tipos de emergencias a bordo y acciones iniciales",
+          "contenido": "<h2>Emergencias marítimas</h2><p>La navegación conlleva riesgos que exigen conocer los protocolos de seguridad y las acciones iniciales. Es indispensable contar con planes, equipos adecuados, tripulaciones formadas y simulacros periódicos.</p><table><thead><tr><th>Emergencia</th><th>Riesgo principal</th><th>Acción inicial</th></tr></thead><tbody><tr><td>Incendio</td><td>Humo, calor e intoxicación</td><td>Activar la alarma, informar y combatir si corresponde</td></tr><tr><td>Abandono</td><td>Pánico y desorden</td><td>Reunir pasajeros</td></tr><tr><td>Colisión</td><td>Daños estructurales</td><td>Evaluar y controlar daños</td></tr><tr><td>Varada</td><td>Ingreso de agua</td><td>Controlar la estabilidad</td></tr><tr><td>Hombre al agua</td><td>Pérdida de vida</td><td>Realizar maniobra inmediata</td></tr><tr><td>Derrame químico</td><td>Toxicidad</td><td>Aislar el área</td></tr></tbody></table><h3>Otras situaciones descritas</h3><ul><li><strong>Vías de agua:</strong> localizar la fuga, tratar de sellarla y activar bombas de achique si es necesario.</li><li><strong>Hombre al agua:</strong> lanzar un salvavidas y realizar maniobras de recuperación.</li><li><strong>Emergencias médicas:</strong> disponer de botiquín y conocimientos básicos de asistencia.</li></ul>",
+          "paginas_fuente": [
+            16,
+            17
+          ]
+        },
+        {
+          "tipo": "pagina",
+          "titulo": "Plan de Emergencia de la Tripulación",
+          "contenido": "<h2>Definición y finalidad</h2><p>El Plan de Emergencia de la Tripulación reúne procedimientos, responsabilidades y acciones previamente establecidas para responder de forma rápida, coordinada y eficaz ante situaciones que afecten al buque, los pasajeros, la tripulación o el medio marino.</p><p>Las funciones se asignan mediante el Cuadro de Obligaciones para emergencias como incendios, abandono, inundaciones y colisiones.</p><h3>Objetivos</h3><ul><li>Proteger la vida de pasajeros y tripulantes.</li><li>Organizar la respuesta inicial.</li><li>Asignar responsabilidades específicas.</li><li>Coordinar el control y la evacuación.</li><li>Reducir las consecuencias del siniestro.</li><li>Facilitar la comunicación entre equipos.</li><li>Garantizar una evacuación segura y ordenada.</li></ul><h3>Contenido mínimo</h3><ul><li>Estructura de mando y organización de la respuesta.</li><li>Procedimientos para diferentes emergencias.</li><li>Sistemas de alarma y comunicaciones.</li><li>Rutas, estaciones de reunión y embarque y control de multitudes.</li><li>Equipos y medios de emergencia.</li><li>Coordinación de la tripulación.</li><li>Entrenamiento y simulacros periódicos.</li></ul>",
+          "paginas_fuente": [
+            17,
+            18,
+            19
+          ]
+        },
+        {
+          "tipo": "pagina",
+          "titulo": "Plan de Control de Incendios",
+          "contenido": "<h2>Plan de Control de Incendios</h2><p>De acuerdo con el Capítulo II-2, Regla 15 de SOLAS, los buques de pasaje deben disponer de un Plan de Control de Incendios actualizado y accesible para la tripulación y los equipos de emergencia.</p><h3>Finalidad</h3><p>Proporciona una representación gráfica del sistema de protección contra incendios, las vías de evacuación y los elementos de seguridad para facilitar una respuesta rápida y coordinada.</p><h3>Información relevante</h3><ul><li>Ubicación de equipos de extinción y seguridad.</li><li>Rutas de escape y equipos cercanos.</li><li>Alarmas, rociadores, sistemas de extinción y ventilación.</li><li>Medios de escape entre compartimentos y cubiertas.</li><li>Información útil para los bomberos del puerto.</li></ul><p>Debe estar disponible en el idioma de trabajo y en inglés, exhibirse en lugares visibles y mantenerse actualizado. Debe existir al menos una copia en tierra en las oficinas de la compañía.</p><h3>Competencias del personal que asiste a pasajeros</h3><ul><li>Interpretar la información básica del plan.</li><li>Identificar estaciones de lucha contra incendios y divisiones Clase A y B.</li><li>Localizar vías de evacuación y guiar por rutas seguras.</li><li>Evitar el ingreso de pasajeros a sectores afectados.</li><li>Colaborar según el Cuadro de Obligaciones.</li></ul>",
+          "paginas_fuente": [
+            19,
+            20,
+            21
+          ]
+        },
+        {
+          "tipo": "pagina",
+          "titulo": "Plan de Control de Daños",
+          "contenido": "<h2>Propósito del plan</h2><p>El Plan de Control de Daños proporciona información sobre la disposición estructural y los medios disponibles para responder ante inundaciones, averías, colisiones, varadas u otros eventos que afecten la flotabilidad y estabilidad.</p><h3>Acciones que facilita</h3><ul><li>Identificar la zona afectada.</li><li>Evaluar la magnitud de la avería.</li><li>Aplicar medidas iniciales de control.</li><li>Reducir la entrada de agua o la propagación del daño.</li><li>Mantener la estabilidad y seguridad.</li><li>Proteger a pasajeros y tripulantes.</li></ul><h3>Información contenida</h3><ol><li><strong>Disposición general:</strong> cubiertas, compartimentos, alojamientos, máquinas, carga y áreas restringidas.</li><li><strong>Compartimentado estanco:</strong> mamparos, divisiones y zonas críticas.</li><li><strong>Puertas y cierres estancos:</strong> ubicación, cierres remotos y accionamiento.</li><li><strong>Achique y control de inundaciones:</strong> bombas, tuberías, válvulas y puntos de control.</li><li><strong>Equipos de control de daños:</strong> materiales de obturación, bombas portátiles, herramientas y comunicaciones.</li></ol>",
+          "paginas_fuente": [
+            21,
+            22,
+            23
+          ]
+        },
+        {
+          "tipo": "pagina",
+          "titulo": "Organización de emergencias a bordo",
+          "contenido": "<h2>Principio de organización</h2><p>En un buque de pasaje, cada tripulante debe saber qué hacer, dónde dirigirse, a quién reportar y cómo asistir a los pasajeros. La organización general descrita en el manual contempla los siguientes equipos:</p><h3>Equipo de Comando</h3><p>El Capitán lidera la emergencia desde el puente. El segundo oficial de cubierta lo apoya y puede relevar al oficial de guardia. Un marinero acude al puente a las órdenes del Capitán.</p><h3>Equipo de Emergencia</h3><p>Combate la situación y es liderado por el primer oficial. Su composición queda a criterio del Capitán y debe permitir que al menos cuatro tripulantes se reúnan en la Estación General de Emergencia.</p><h3>Equipo de Apoyo</h3><p>Apoya con equipo adicional, enfriamiento del contorno y formación de equipos adicionales de mangueras.</p><h3>Equipo de Misiones Especiales</h3><p>Lo integran el Jefe de Máquinas, el primer oficial de máquinas y el personal del departamento no asignado a otras funciones. Atiende las necesidades técnicas según el Cuadro de Obligaciones.</p><h3>Equipo de Primeros Auxilios</h3><p>Se reúne en la enfermería o en otro lugar adecuado, se prepara para recibir accidentados y dispone una camilla para su transporte.</p><p>Cuando cambia la tripulación, la organización debe actualizarse antes de zarpar. El manual indica que, de ser posible, debe efectuarse un ejercicio dentro de las 48 horas siguientes a la salida.</p>",
+          "paginas_fuente": [
+            23,
+            24,
+            25,
+            26
+          ]
+        },
+        {
+          "tipo": "pagina",
+          "titulo": "Cuadro de Obligaciones o Muster List",
+          "contenido": "<h2>Función del Cuadro de Obligaciones</h2><p>El Capítulo III, Regla 8 de SOLAS dispone instrucciones claras para cada persona a bordo. El Cuadro de Obligaciones es un cartel, redactado en un idioma apropiado, que indica las instrucciones de la tripulación y los pasajeros durante una emergencia.</p><p>Define responsables del mantenimiento de los dispositivos de salvamento y lucha contra incendios, sustitutos de personas clave y tareas relacionadas con los pasajeros.</p><h3>Ubicación</h3><ul><li>Puente de navegación.</li><li>Cámara de máquinas.</li><li>Alojamientos de la tripulación.</li><li>Estaciones de reunión.</li><li>Puestos de control de emergencia y estaciones de embarque.</li><li>Camarotes y espacios de pasajeros mediante extractos e instrucciones apropiadas.</li></ul><h3>Ejemplos de funciones</h3><table><thead><tr><th>Cargo o equipo</th><th>Funciones destacadas</th></tr></thead><tbody><tr><td>Capitán</td><td>Dirigir la emergencia, ordenar el abandono y coordinar.</td></tr><tr><td>Primer oficial</td><td>Liderar el equipo de emergencia y coordinar equipos.</td></tr><tr><td>Personal hotelero</td><td>Guiar y organizar pasajeros en estaciones.</td></tr><tr><td>Camareros</td><td>Verificar camarotes y apoyar la evacuación.</td></tr><tr><td>Personal médico</td><td>Atender lesionados y priorizar personas vulnerables.</td></tr><tr><td>Seguridad</td><td>Controlar accesos, evitar aglomeraciones y mantener el orden.</td></tr></tbody></table><p>El Cuadro de Obligaciones se dirige a la tripulación y define qué debe hacer cada integrante. Se diferencia de la tarjeta del pasajero, el plan de control de multitudes y el plan general de emergencia.</p>",
+          "paginas_fuente": [
+            26,
+            27,
+            28,
+            29
+          ]
+        },
+        {
+          "tipo": "pagina",
+          "titulo": "Alarmas, señales e instrucciones de emergencia",
+          "contenido": "<h2>Alarma general de emergencia</h2><p>El sistema de alarma convoca a pasajeros y tripulantes a los puestos de reunión e inicia las operaciones indicadas en el Cuadro de Obligaciones. Se complementa con el sistema de megafonía.</p><p>La señal general está constituida por <strong>siete o más pitadas cortas seguidas de una pitada larga</strong> del silbato o sirena. Después deben seguir las instrucciones del Capitán. La orden de abandono solo puede darla el Capitán.</p><h3>Características de una señal eficaz</h3><ul><li>Clara y reconocible.</li><li>Audible en todo el buque.</li><li>Capaz de alertar, iniciar procedimientos, evitar confusión y coordinar la respuesta.</li></ul><h3>Instrucciones para pasajeros</h3><p>Deben publicarse en inglés y en los demás idiomas apropiados, en cabinas, espacios de pasajeros y puestos de reunión. Deben indicar:</p><ul><li>Señales de emergencia.</li><li>Puesto de reunión asignado.</li><li>Acciones esenciales.</li><li>Ubicación de chalecos para adultos, niños y bebés.</li><li>Método de colocación del chaleco.</li></ul><p>Los ejercicios, la formación y sus fechas deben registrarse en el diario de navegación.</p>",
+          "paginas_fuente": [
+            29,
+            30
+          ]
+        },
+        {
+          "tipo": "pagina",
+          "titulo": "Importancia de los simulacros y los procedimientos",
+          "contenido": "<h2>Entrenamiento para la respuesta</h2><p>La eficacia de los planes depende del conocimiento, entrenamiento y coordinación alcanzados mediante simulacros periódicos. Estos recrean escenarios controlados para practicar procedimientos, familiarizarse con las funciones y fortalecer el trabajo en equipo.</p><h3>Aportes de los simulacros</h3><ul><li>Reducen los tiempos de reacción.</li><li>Disminuyen la posibilidad de errores.</li><li>Permiten evaluar los planes de emergencia.</li><li>Detectan debilidades y oportunidades de mejora.</li><li>Comprueban el funcionamiento de sistemas y equipos.</li><li>Fortalecen la comunicación y coordinación.</li></ul><p>Cada tripulante debe actuar conforme al Cuadro de Obligaciones, mantener comunicación con el Puente de Mando y seguir los procedimientos del buque.</p><p>En buques de pasaje, los ejercicios de control de multitudes, comunicación y asistencia permiten dirigir desplazamientos ordenados y apoyar a quienes necesitan ayuda especial. Los simulacros son una herramienta permanente de capacitación, mejora continua y fortalecimiento de la cultura de seguridad.</p>",
+          "paginas_fuente": [
+            31
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Módulo III. Control de multitudes",
+      "contenidos": [
+        {
+          "tipo": "pagina",
+          "titulo": "Comportamiento humano en situaciones de emergencia",
+          "contenido": "<h2>La multitud en un buque de pasaje</h2><p>Una multitud es un conjunto de personas que comparte un espacio físico y puede reaccionar colectivamente ante un estímulo común. En un buque está formada por personas de distintas edades, culturas e idiomas, generalmente sin conocimientos marítimos y dependientes de la información de la tripulación.</p><h3>Fases del comportamiento</h3><ol><li><strong>Normalidad:</strong> no existe percepción de peligro.</li><li><strong>Alerta:</strong> las personas perciben alarmas, humo o movimientos anormales y buscan información.</li><li><strong>Incertidumbre:</strong> la falta de información genera ansiedad y los pasajeros observan a la tripulación para decidir cómo actuar.</li><li><strong>Agitación:</strong> aumentan la preocupación y los desplazamientos desordenados.</li><li><strong>Pánico:</strong> algunas personas pierden el autocontrol e intentan escapar sin seguir instrucciones.</li></ol><p>Por estas características, la tripulación debe asumir el control del grupo desde los primeros momentos de la emergencia.</p>",
+          "paginas_fuente": [
+            32
+          ]
+        },
+        {
+          "tipo": "pagina",
+          "titulo": "Organización y desplazamiento seguro de pasajeros",
+          "contenido": "<h2>Dos grupos, diferentes respuestas</h2><p>La tripulación responde de acuerdo con su entrenamiento y experiencia. Los pasajeros presentan mayor diversidad de edad, estado físico, experiencia y personalidad, por lo que pueden reaccionar de formas distintas.</p><h3>Herramienta para la toma de decisiones</h3><ol><li><strong>Evaluación:</strong> saber qué sucede alrededor.</li><li><strong>Planificación:</strong> decidir las acciones de acuerdo con los planes.</li><li><strong>Ejecución:</strong> realizar la acción de emergencia apropiada.</li><li><strong>Monitoreo:</strong> verificar la efectividad de la acción adoptada.</li></ol><p>Los aspectos mecánicos corresponden a procedimientos planificados y asociados al diseño, los equipos y el Cuadro de Obligaciones. La dinámica comprende los elementos cambiantes e impredecibles de la situación, como liderazgo, relaciones y respuestas humanas.</p><h3>Responsabilidades durante el desplazamiento</h3><ul><li>Mantener la calma y dar instrucciones claras.</li><li>Guiar hacia las estaciones de reunión.</li><li>Impedir el uso de rutas inseguras.</li><li>Controlar accesos y escaleras.</li><li>Asistir a personas vulnerables.</li><li>Evitar aglomeraciones.</li><li>Informar incidencias al oficial responsable.</li></ul>",
+          "paginas_fuente": [
+            33,
+            34
+          ]
+        },
+        {
+          "tipo": "pagina",
+          "titulo": "Técnicas de control y liderazgo de grupos",
+          "contenido": "<h2>Liderazgo adaptable</h2><p>El liderazgo exige flexibilidad para adoptar el enfoque adecuado a cada situación.</p><h3>Técnicas fundamentales</h3><ol><li><strong>Liderazgo visible:</strong> ubicarse en puntos estratégicos, usar uniforme o elementos distintivos y demostrar firmeza y seguridad.</li><li><strong>Comunicación clara:</strong> emitir instrucciones breves, sencillas, comprensibles, coherentes y con voz calmada.</li><li><strong>Prevención del pánico:</strong> proporcionar información veraz, evitar rumores, mantener contacto y explicar las acciones en curso.</li><li><strong>Organización del movimiento:</strong> utilizar las rutas del Plan de Emergencia y evitar recorridos improvisados.</li><li><strong>Protección de personas vulnerables:</strong> planificar desde el inicio la asistencia a niños, adultos mayores, mujeres embarazadas y personas con discapacidad o movilidad reducida.</li><li><strong>Trabajo en equipo:</strong> coordinar los departamentos para evitar duplicidad de funciones y mejorar la respuesta.</li></ol>",
+          "paginas_fuente": [
+            34,
+            35,
+            36
+          ]
+        },
+        {
+          "tipo": "pagina",
+          "titulo": "Técnicas de comunicación efectiva",
+          "contenido": "<h2>Comunicación durante una emergencia</h2><p>La información precisa puede significar la diferencia entre la vida y la muerte. La tripulación que guía a los pasajeros debe dar órdenes claras y tranquilizadoras durante el desplazamiento hacia los puestos de reunión o embarque.</p><h3>Preparación del mensaje</h3><ul><li>Presentar la información en la secuencia correcta.</li><li>Utilizar terminología común.</li><li>Evitar jerga, códigos, abreviaturas y detalles innecesarios.</li><li>Mantener coherencia con los anuncios generales.</li><li>Ser claro y directo, sin mentir.</li><li>Repetir los comandos cuando corresponda.</li><li>Utilizar lenguaje y órdenes positivas.</li></ul><h3>Presencia y autoridad</h3><ul><li><strong>Ubicación:</strong> situarse donde todos puedan ver al tripulante.</li><li><strong>Vestimenta:</strong> usar uniforme, chaleco de alta visibilidad u otro distintivo.</li><li><strong>Actitud:</strong> ser firme, educado y seguro.</li><li><strong>Equipos:</strong> usar correctamente radios, teléfonos, mensajeros y megáfonos.</li></ul><h3>Expresión oral</h3><ul><li>Tono profesional y amistoso.</li><li>Ritmo pausado y controlado.</li><li>Volumen audible sin perder un tono bajo.</li><li>Dicción clara.</li></ul>",
+          "paginas_fuente": [
+            36,
+            37
+          ]
+        },
+        {
+          "tipo": "pagina",
+          "titulo": "Equipos para atender pasajeros durante emergencias",
+          "contenido": "<h2>Finalidad de los equipos</h2><p>Los equipos de atención permiten facilitar la evacuación, mejorar la comunicación, prestar primeros auxilios y apoyar a quienes necesitan asistencia especial. Deben emplearse conforme al Plan de Emergencia y a las instrucciones de los responsables.</p><h3>Equipos principales</h3><ul><li><strong>Chalecos salvavidas:</strong> la tripulación debe verificar su correcta colocación y ayudar a quienes tengan dificultades.</li><li><strong>Comunicaciones:</strong> radios VHF/UHF, megafonía, teléfonos internos y otros sistemas de la compañía.</li><li><strong>Botiquines:</strong> se utilizan dentro del ámbito de la formación y competencias del tripulante, hasta que intervenga el personal sanitario.</li><li><strong>Asistencia a movilidad reducida:</strong> sillas de evacuación, camillas, rampas portátiles y otros dispositivos de apoyo.</li><li><strong>Iluminación y señalización:</strong> orientan hacia las estaciones de reunión y rutas de evacuación durante cortes eléctricos o baja visibilidad.</li></ul><h3>Responsabilidades</h3><ul><li>Conocer la ubicación de los equipos.</li><li>Verificar su disponibilidad y condición operativa.</li><li>Usar solo equipos para los cuales se ha recibido capacitación.</li><li>Explicar su utilización a los pasajeros.</li><li>Dar prioridad a quienes tengan mayores dificultades.</li><li>Informar inmediatamente cualquier falla.</li></ul>",
+          "paginas_fuente": [
+            37,
+            38,
+            39
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Módulo IV. Asistencia a pasajeros en emergencias",
+      "contenidos": [
+        {
+          "tipo": "pagina",
+          "titulo": "Gestión de pasajeros en pasillos, escaleras y vías de escape",
+          "contenido": "<h2>Conducción segura de pasajeros</h2><p>Durante una emergencia, la tripulación debe conducir a un gran número de personas hacia las estaciones de reunión o los medios de evacuación. Los pasillos, escaleras y vías de escape están diseñados y señalizados para permitir este desplazamiento.</p><p>Los tripulantes deben ubicarse estratégicamente en el recorrido para orientar el flujo, entregar instrucciones y corregir conductas que dificulten la evacuación.</p><h3>Responsabilidades principales</h3><ul><li>Guiar por las rutas establecidas.</li><li>Mantener un flujo continuo y evitar detenciones innecesarias.</li><li>Prevenir aglomeraciones en pasillos, puertas y escaleras.</li><li>Impedir el ingreso a sectores afectados.</li><li>Mantener comunicación entre los miembros de la tripulación.</li><li>Ayudar inmediatamente a quienes tengan dificultades.</li></ul><p>Las instrucciones deben ser simples, precisas y firmes. La tripulación debe observar al grupo para detectar pasajeros desorientados, lesionados o necesitados de apoyo adicional.</p>",
+          "paginas_fuente": [
+            40,
+            41
+          ]
+        },
+        {
+          "tipo": "pagina",
+          "titulo": "Mantenimiento de las rutas de escape libres de obstrucciones",
+          "contenido": "<h2>Disponibilidad permanente de las rutas</h2><p>Las rutas de escape incluyen pasillos, escaleras, puertas y corredores. Deben permanecer señalizadas, iluminadas, disponibles y libres de obstáculos.</p><h3>Obstrucciones frecuentes</h3><ul><li>Equipajes.</li><li>Carros de servicio.</li><li>Materiales de limpieza.</li><li>Mobiliario temporal.</li><li>Equipos de mantenimiento.</li><li>Residuos u objetos almacenados inadecuadamente.</li></ul><p>Incluso una obstrucción parcial puede causar retrasos, caídas, lesiones, aglomeraciones o pánico. La tripulación debe inspeccionar puertas cortafuego, escaleras, salidas exteriores y accesos a estaciones de reunión.</p><h3>Actuación durante una emergencia</h3><ul><li>Supervisar continuamente las vías.</li><li>Retirar obstáculos si puede hacerse sin riesgo.</li><li>Redirigir a los pasajeros por rutas alternativas cuando sea necesario.</li><li>Impedir el regreso a camarotes para recuperar pertenencias.</li><li>Utilizar señalización fotoluminiscente y carteles normalizados.</li></ul><p>El humo, el fuego, la inundación o una escora pueden inutilizar rutas principales. Por ello, la tripulación debe conocer también las rutas alternativas del Plan de Emergencia.</p>",
+          "paginas_fuente": [
+            41,
+            42,
+            43
+          ]
+        },
+        {
+          "tipo": "pagina",
+          "titulo": "Procedimientos efectivos de reunión",
+          "contenido": "<h2>Estaciones de reunión</h2><p>Las estaciones de reunión o <em>Muster Stations</em> son áreas donde los pasajeros reciben instrucciones, son contabilizados y permanecen bajo supervisión mientras se evalúa la emergencia.</p><h3>Procedimiento</h3><ol><li>Dirigir a cada pasajero hacia su estación asignada.</li><li>Mantener libres los accesos y controlar el movimiento dentro del área.</li><li>Evitar empujones y concentraciones excesivas.</li><li>Informar al Puente de Mando sobre lesionados, desaparecidos o personas que requieren ayuda.</li><li>Verificar la correcta colocación de chalecos cuando corresponda.</li><li>Entregar información veraz, breve y comprensible.</li><li>Repetir las instrucciones mediante megafonía, equipos portátiles o comunicación directa.</li><li>Controlar la asistencia con la lista de pasajeros.</li></ol><p>Se debe prestar atención prioritaria a personas con movilidad reducida, adultos mayores, mujeres embarazadas y niños. La estación de reunión puede ser un lugar de espera o una etapa previa al traslado hacia los dispositivos de salvamento.</p><p>Estos procedimientos deben practicarse mediante ejercicios y simulacros periódicos.</p>",
+          "paginas_fuente": [
+            43,
+            44,
+            45
+          ]
+        },
+        {
+          "tipo": "pagina",
+          "titulo": "Factores que influyen en el estrés y el pánico",
+          "contenido": "<h2>Estrés y pánico</h2><p>El estrés es la respuesta física y emocional ante una situación que exige adaptación. El pánico es una reacción más intensa que puede disminuir la capacidad de actuar racionalmente.</p><p>Una persona en pánico puede gritar, correr sin dirección, empujar, desobedecer instrucciones o intentar regresar a zonas peligrosas.</p><h3>Factores que aumentan el riesgo</h3><ul><li>Falta de información.</li><li>Instrucciones contradictorias.</li><li>Demoras prolongadas sin comunicación.</li><li>Humo, fuego, escora o ruidos anormales.</li><li>Aglomeraciones.</li><li>Separación de grupos familiares.</li><li>Nerviosismo de otros pasajeros.</li><li>Desconocimiento de las rutas y procedimientos.</li></ul><h3>Medidas de control</h3><ul><li>Mantener comunicación continua, veraz y sencilla.</li><li>Mostrar un lenguaje corporal sereno.</li><li>Identificar signos de ansiedad o desorientación.</li><li>Establecer contacto visual y dar instrucciones simples.</li><li>Intervenir ante conductas que pongan en peligro al grupo.</li><li>Mantener unidos a los grupos familiares cuando sea posible.</li></ul><p>La práctica mediante simulacros fortalece el liderazgo y permite reconocer y gestionar las reacciones emocionales.</p>",
+          "paginas_fuente": [
+            45,
+            46
+          ]
+        },
+        {
+          "tipo": "pagina",
+          "titulo": "Uso de la lista de pasajeros para conteos",
+          "contenido": "<h2>Finalidad de la lista de pasajeros</h2><p>La lista de pasajeros es un documento oficial que identifica a las personas embarcadas y permite conocer su número total. Se utiliza para controlar la asistencia en las estaciones de reunión y apoyar las decisiones del Capitán y del Puente de Mando.</p><h3>Procedimiento de conteo</h3><ol><li>Mantener a los pasajeros agrupados.</li><li>Verificar ordenadamente a las personas asignadas a la estación.</li><li>Complementar el conteo con sistemas electrónicos cuando estén disponibles.</li><li>Comunicar inmediatamente cualquier ausencia.</li><li>Informar nombre, cabina, grupo familiar y antecedentes útiles.</li><li>Realizar una búsqueda solo cuando las condiciones lo permitan y exista autorización.</li></ol><p>Ningún tripulante debe abandonar su puesto por iniciativa propia. En evacuaciones parciales pueden necesitarse varios conteos para confirmar que nadie haya salido de la estación sin autorización.</p><p>La información permite determinar cuántas personas siguen a bordo, cuántas han sido evacuadas y si existen desaparecidos. Los procedimientos deben practicarse regularmente mediante simulacros.</p>",
+          "paginas_fuente": [
+            47,
+            48
+          ]
+        },
+        {
+          "tipo": "pagina",
+          "titulo": "Uso de dispositivos de salvamento para pasajeros",
+          "contenido": "<h2>Dispositivos de salvamento</h2><p>Estos equipos protegen la vida cuando es necesario abandonar el buque. SOLAS exige que sean adecuados y suficientes para todas las personas, estén operativos, señalizados y accesibles.</p><h3>Dispositivos descritos</h3><ul><li>Chalecos salvavidas.</li><li>Botes salvavidas.</li><li>Balsas salvavidas inflables.</li><li>Aros salvavidas.</li><li>Otros equipos para facilitar la supervivencia.</li></ul><h3>Responsabilidad de la tripulación</h3><p>La tripulación debe explicar y comprobar la colocación del chaleco, verificar el ajuste de las correas y ayudar a niños, adultos mayores y personas con discapacidad o dificultades físicas.</p><p>Si el Capitán ordena el abandono, los pasajeros deben ser dirigidos hacia los medios asignados. Durante el embarque se debe:</p><ul><li>Mantener el orden y evitar aglomeraciones.</li><li>Respetar el orden de ingreso.</li><li>Evitar movimientos bruscos, sobrecarga y desequilibrios.</li><li>Ayudar a quienes necesiten asistencia.</li><li>Mantener una comunicación clara y permanente.</li></ul><p>La preparación mediante ejercicios mejora la coordinación y la capacidad para asistir a los pasajeros.</p>",
+          "paginas_fuente": [
+            48,
+            49,
+            50
+          ]
+        },
+        {
+          "tipo": "pagina",
+          "titulo": "Asistencia a niños, adultos mayores y personas con movilidad reducida",
+          "contenido": "<h2>Pasajeros que requieren apoyo adicional</h2><p>La tripulación debe identificar y asistir a niños, adultos mayores, mujeres embarazadas, personas con movilidad reducida y pasajeros con discapacidades temporales o permanentes.</p><h3>Identificación temprana</h3><p>La información puede obtenerse mediante los registros de embarque o durante la recepción de los pasajeros. El personal también debe observar durante la navegación a quienes puedan requerir ayuda no declarada.</p><h3>Orientaciones de asistencia</h3><ul><li><strong>Niños:</strong> utilizar lenguaje sencillo y tranquilizador, mantenerlos con sus padres o tutores y apoyarlos hasta la reunificación cuando exista separación.</li><li><strong>Adultos mayores:</strong> adaptar el ritmo, considerar dificultades físicas, auditivas o visuales y verificar su seguridad durante el recorrido.</li><li><strong>Movilidad reducida:</strong> conocer rutas accesibles, utilizar los equipos disponibles y coordinar la asistencia entre varios tripulantes.</li><li><strong>Discapacidad sensorial o cognitiva:</strong> adaptar la comunicación mediante gestos, demostraciones y contacto visual.</li></ul><p>La tripulación debe comprobar personalmente la colocación de los chalecos y mantener la asistencia durante el embarque en los dispositivos de salvamento. La coordinación permite priorizar a quienes presentan mayores dificultades sin perder el orden general.</p>",
+          "paginas_fuente": [
+            50,
+            51,
+            52
+          ]
+        },
+        {
+          "tipo": "pagina",
+          "titulo": "Embarque y desembarque seguro de pasajeros",
+          "contenido": "<h2>Operaciones seguras</h2><p>El embarque y desembarque presentan riesgos de caídas, tropiezos y golpes debido al movimiento del buque, las condiciones meteorológicas y la concentración de personas.</p><h3>Verificaciones previas</h3><ul><li>Pasarelas y rampas correctamente instaladas y aseguradas.</li><li>Accesos libres de obstáculos.</li><li>Iluminación y señalización adecuadas.</li><li>Condiciones seguras durante operaciones nocturnas o con baja visibilidad.</li></ul><h3>Funciones de la tripulación</h3><ul><li>Ubicarse en puntos estratégicos.</li><li>Orientar el flujo y controlar el acceso.</li><li>Responder consultas y advertir sobre desniveles o superficies resbaladizas.</li><li>Ayudar a niños, adultos mayores, mujeres embarazadas, personas con movilidad reducida y pasajeros con equipaje voluminoso.</li><li>Prevenir aglomeraciones y mantener un flujo continuo.</li></ul><p>La lluvia, el viento, el oleaje o el hielo pueden exigir reforzar la asistencia, reducir el flujo o suspender temporalmente la operación. La planificación, supervisión, comunicación y asistencia permiten reducir los riesgos.</p>",
+          "paginas_fuente": [
+            52,
+            53
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Fuentes y bibliografía",
+      "contenidos": [
+        {
+          "tipo": "pagina",
+          "titulo": "Bibliografía del manual",
+          "contenido": "<h2>Referencias</h2><ul><li><em>Model Course 1.41 Passenger Ship Crowd Management Training</em>, edición 2018.</li><li>Convenio Internacional de Formación, Titulación y Guardia para la Gente de Mar, STCW 78/95.</li><li>Sitio web de la Organización Marítima Internacional: www.imo.org.</li><li>Convenio Internacional para la Seguridad de la Vida Humana en el Mar, SOLAS 74.</li><li>Código Internacional de Seguridad para Naves de Gran Velocidad, Código NGV.</li><li>Código Internacional de Gestión de la Seguridad, Código IGS.</li><li>Still, G. K. (2013). <em>Introducción a Crowd Science</em>. CRC Press.</li><li>Poole, T. y Springett, P. (2012). <em>Comprender el comportamiento humano en situaciones de emergencia</em>.</li></ul>",
+          "paginas_fuente": [
+            54
+          ]
+        }
+      ]
+    }
+  ]
+}

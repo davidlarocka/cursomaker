@@ -1,0 +1,107 @@
+{
+  "resultados": [
+    {
+      "id_logico": "omi141-m01-desarrollo-01",
+      "estado": "aprobado",
+      "justificacion": "La actividad generada reproduce fielmente el escenario, las dos preguntas y las indicaciones del documento fuente. La integración de «Justifique cada respuesta» dentro de las instrucciones es un cambio únicamente de formato y no altera la condición evaluativa. No se identifican omisiones, alteraciones, invenciones ni recursos faltantes.",
+      "hallazgos": []
+    },
+    {
+      "id_logico": "omi141-m01-discusion-01",
+      "estado": "aprobado",
+      "justificacion": "La actividad de discusión reproduce fielmente el título, el caso, la pregunta de debate y las dos instrucciones indicadas en la página fuente. La exigencia de interacción con pares y el mínimo de una respuesta se corresponden con la instrucción de comentar la publicación de al menos un compañero. Las diferencias observadas son únicamente de formato.",
+      "hallazgos": []
+    },
+    {
+      "id_logico": "omi141-m01-h5p-dragdrop-01",
+      "estado": "aprobado",
+      "justificacion": "La actividad reproduce fielmente el título, el tipo de interacción, las instrucciones y las ocho relaciones entre conceptos y definiciones indicadas en las páginas fuente. Las respuestas asociadas a SOLAS, STCW, Curso Modelo OMI 1.41, Capitán, Tripulación, Pasajero, Cultura de Seguridad y Preparación coinciden con las respuestas especificadas en el documento. No se identifican omisiones, alteraciones, invenciones ni recursos faltantes.",
+      "hallazgos": []
+    },
+    {
+      "id_logico": "omi141-m01-quiz-01",
+      "estado": "aprobado",
+      "justificacion": "La actividad reproduce fielmente las dos preguntas del test, sus alternativas y sus retroalimentaciones. Las respuestas marcadas como correctas corresponden a lo indicado por el contenido de las retroalimentaciones: la alternativa b en la pregunta 1 y la alternativa c en la pregunta 2. No se observan alteraciones semánticas, invenciones ni omisiones dentro del test.",
+      "hallazgos": []
+    },
+    {
+      "id_logico": "omi141-m02-desarrollo-01",
+      "estado": "aprobado",
+      "justificacion": "La actividad generada reproduce fielmente el escenario, las instrucciones y las dos preguntas de la actividad de desarrollo de la página 6. La integración de los párrafos del caso en un único campo y la presentación de los cuatro documentos dentro del enunciado de la segunda pregunta son diferencias únicamente de formato que no alteran el contenido ni las condiciones evaluativas.",
+      "hallazgos": []
+    },
+    {
+      "id_logico": "omi141-m02-discusion-01",
+      "estado": "aprobado",
+      "justificacion": "La actividad generada reproduce fielmente la actividad de análisis y discusión de las páginas 6 y 7. El título, el caso de estudio, la pregunta de debate y las instrucciones coinciden con la fuente. También representa correctamente la exigencia de comentar la publicación de al menos un compañero mediante los campos de interacción entre pares.",
+      "hallazgos": []
+    },
+    {
+      "id_logico": "omi141-m02-h5p-coursepresentation-01",
+      "estado": "aprobado",
+      "justificacion": "La actividad generada reproduce fielmente el título, las instrucciones, las cuatro situaciones y sus respectivas respuestas correctas según las páginas fuente 7 y 8. El tipo H5P Course Presentation también coincide con el tipo principal indicado en la fuente. No se identifican omisiones, alteraciones, invenciones ni recursos faltantes.",
+      "hallazgos": []
+    },
+    {
+      "id_logico": "omi141-m02-quiz-01",
+      "estado": "aprobado",
+      "justificacion": "La actividad reproduce fielmente las dos preguntas del test, sus alternativas, las respuestas correctas y las retroalimentaciones indicadas en las páginas fuente. No se identifican omisiones, alteraciones ni invenciones evaluativas.",
+      "hallazgos": []
+    },
+    {
+      "id_logico": "omi141-m03-desarrollo-01",
+      "estado": "aprobado",
+      "justificacion": "La actividad generada reproduce fielmente el escenario, las dos preguntas y la exigencia de responder con base en los contenidos del módulo y justificar cada respuesta. Las diferencias observadas son únicamente de organización y formato, sin cambios en el significado ni en las condiciones evaluativas.",
+      "hallazgos": []
+    },
+    {
+      "id_logico": "omi141-m03-discusion-01",
+      "estado": "aprobado",
+      "justificacion": "La actividad generada reproduce fielmente el tema, el caso de estudio, la pregunta de debate y las dos instrucciones de la actividad de análisis y discusión. La exigencia de interacción con al menos un compañero también está correctamente representada mediante los campos de interacción entre pares. No se identifican omisiones, alteraciones, invenciones ni recursos faltantes.",
+      "hallazgos": []
+    },
+    {
+      "id_logico": "omi141-m03-h5p-hotspots-01",
+      "estado": "requiere_revision_humana",
+      "justificacion": "El título, el tipo de actividad, las instrucciones y los cinco elementos identificables coinciden con la página fuente. Sin embargo, Image Hotspots requiere una imagen base y esta no está disponible en el material proporcionado, por lo que no es posible validar ni implementar la ubicación de los puntos interactivos.",
+      "hallazgos": [
+        {
+          "tipo": "recurso_faltante",
+          "descripcion": "Falta la ilustración base de la estación de reunión o del sector de embarque necesaria para ubicar y validar los hotspots.",
+          "evidencia_fuente": "La página 11 indica: «Se presenta una ilustración de una estación de reunión o de un sector de embarque con diferentes equipos visibles». En el contenido suministrado solo aparece el texto, sin la ilustración correspondiente.",
+          "correccion_sugerida": "Solicitar o incorporar la ilustración fuente y realizar una revisión humana de la ubicación de los cinco puntos interactivos antes de publicar la actividad."
+        }
+      ]
+    },
+    {
+      "id_logico": "omi141-m04-desarrollo-01",
+      "estado": "aprobado",
+      "justificacion": "La actividad generada reproduce fielmente el escenario, las dos preguntas y la exigencia de justificar cada respuesta de la actividad de desarrollo incluida en la página 13. La integración de las instrucciones en una sola frase y los cambios menores de puntuación o capitalización no modifican el significado ni las condiciones evaluativas.",
+      "hallazgos": []
+    },
+    {
+      "id_logico": "omi141-m04-discusion-01",
+      "estado": "aprobado",
+      "justificacion": "La actividad reproduce fielmente la actividad de análisis y discusión de las páginas 13 y 14. El título, el caso de estudio, la pregunta de debate y las instrucciones coinciden con la fuente. La interacción con al menos un compañero y el mínimo de una respuesta entre pares están expresamente indicados en el texto original.",
+      "hallazgos": []
+    },
+    {
+      "id_logico": "omi141-m04-h5p-fillblanks-01",
+      "estado": "aprobado",
+      "justificacion": "La actividad generada reproduce fielmente el título, el tipo H5P, las instrucciones, el texto con cinco espacios y las respuestas esperadas de la fuente. La inclusión de «rutas» y «vías» como respuestas aceptadas para el segundo espacio corresponde exactamente a «rutas (o vías)». No se observan omisiones, alteraciones, invenciones ni recursos faltantes.",
+      "hallazgos": []
+    },
+    {
+      "id_logico": "omi141-m03-quiz-01",
+      "estado": "aprobado",
+      "justificacion": "La actividad generada reproduce fielmente las dos preguntas del Test del Módulo III, incluidas sus alternativas, respuestas correctas y retroalimentaciones. La retroalimentación final del módulo no forma parte del quiz y, por tanto, no constituye una omisión.",
+      "hallazgos": []
+    },
+    {
+      "id_logico": "omi141-m04-quiz-01",
+      "estado": "aprobado",
+      "justificacion": "La actividad generada reproduce fielmente las dos preguntas del Test del Módulo IV, sus alternativas, las respuestas correctas y las retroalimentaciones. Las diferencias observadas son únicamente de formato. La actividad interactiva y la retroalimentación final del módulo no pertenecen semánticamente al quiz evaluado, por lo que su ausencia no constituye una omisión.",
+      "hallazgos": []
+    }
+  ]
+}

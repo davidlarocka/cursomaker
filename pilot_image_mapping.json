@@ -1,0 +1,53 @@
+{
+  "contenido": "Funciones y responsabilidades del personal en emergencias",
+  "imagenes": {
+    "pagina_012_img_01.jpeg": {
+      "indice_subseccion": 2,
+      "subseccion": "Guiar a los pasajeros hacia las estaciones de reunión",
+      "descripcion": "Señal de seguridad de una estación de reunión (Muster Station), con varias personas agrupadas en un punto central y flechas que indican dirigirse hacia él.",
+      "justificacion": "La señal muestra una estación de reunión y flechas que orientan a las personas hacia ella, por lo que corresponde directamente a la acción de guiar a los pasajeros al punto asignado."
+    },
+    "pagina_012_img_02.jpeg": {
+      "indice_subseccion": 2,
+      "subseccion": "Guiar a los pasajeros hacia las estaciones de reunión",
+      "descripcion": "Personal de emergencia con chalecos reflectantes guía a pasajeros con chalecos salvavidas por las escaleras interiores de una nave durante una evacuación.",
+      "justificacion": "La imagen muestra al personal de emergencia conduciendo a pasajeros por una ruta interior de evacuación, controlando su desplazamiento hacia un punto seguro o estación de reunión."
+    },
+    "pagina_013_img_01.jpeg": {
+      "indice_subseccion": 5,
+      "subseccion": "Reunir y contabilizar a los pasajeros",
+      "descripcion": "Grupo de personas con chalecos salvavidas y cascos reunidas de forma ordenada en la cubierta de una embarcación, frente a una persona que parece dirigir la actividad.",
+      "justificacion": "La imagen muestra a los pasajeros reunidos de forma ordenada en un grupo, aparentemente bajo la coordinación de una persona, lo que se relaciona con la organización y contabilización en una estación de reunión."
+    },
+    "pagina_013_img_02.jpeg": {
+      "indice_subseccion": 3,
+      "subseccion": "Asistir a pasajeros vulnerables",
+      "descripcion": "Mujer usuaria de silla de ruedas en un muelle, con un buque de pasajeros atracado al fondo.",
+      "justificacion": "La imagen muestra a una pasajera usuaria de silla de ruedas junto a un buque, lo que se relaciona directamente con la asistencia a personas con movilidad reducida para garantizar su seguridad."
+    },
+    "pagina_014_img_01.jpeg": {
+      "indice_subseccion": 6,
+      "subseccion": "Asistir en el uso de equipos de salvamento",
+      "descripcion": "Un grupo de pasajeros permanece formado en la cubierta de una embarcación mientras utiliza chalecos salvavidas; un tripulante parece entregar instrucciones o verificar el procedimiento.",
+      "justificacion": "Los pasajeros llevan chalecos salvavidas y un tripulante parece explicar o verificar su uso, lo que corresponde a la asistencia en el manejo de equipos de salvamento."
+    },
+    "pagina_014_img_02.jpeg": {
+      "indice_subseccion": 6,
+      "subseccion": "Asistir en el uso de equipos de salvamento",
+      "descripcion": "Miembros de la tripulación realizan una demostración ante un grupo de pasajeros que lleva chalecos salvavidas, junto a señalización y equipos de emergencia.",
+      "justificacion": "La imagen muestra a la tripulación realizando una demostración ante pasajeros que llevan chalecos salvavidas, lo que corresponde directamente a explicar y asistir en el uso de equipos de salvamento."
+    },
+    "pagina_015_img_01.jpeg": {
+      "indice_subseccion": 6,
+      "subseccion": "Asistir en el uso de equipos de salvamento",
+      "descripcion": "Un instructor de la tripulación ayuda a un pasajero a colocarse un chaleco salvavidas, mientras otras personas también usan chalecos en una zona de reunión.",
+      "justificacion": "La imagen muestra a un tripulante ayudando a un pasajero a colocarse un chaleco salvavidas, una tarea directamente relacionada con la asistencia en el uso de equipos de salvamento."
+    },
+    "pagina_015_img_02.jpeg": {
+      "indice_subseccion": 7,
+      "subseccion": "Cumplir estrictamente el Cuadro de Obligaciones",
+      "descripcion": "Cuadro orgánico de obligaciones e instrucciones para una emergencia de abandono, organizado por cargos de la tripulación —capitán o patrón, maquinista, cocinero y marinero— y con las tareas asignadas a cada uno.",
+      "justificacion": "La imagen muestra directamente un Cuadro de Obligaciones para una emergencia de abandono, con funciones específicas asignadas a cada cargo de la tripulación, lo que corresponde al cumplimiento estricto de las tareas designadas."
+    }
+  }
+}

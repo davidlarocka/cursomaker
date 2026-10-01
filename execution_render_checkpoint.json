@@ -1,0 +1,248 @@
+{
+  "curso_id": 7,
+  "paginas": {
+    "61": {
+      "titulo": "Tipos de emergencias a bordo y acciones iniciales",
+      "estado": "verificada",
+      "imagenes": [
+        "pagina_016_img_01.jpeg"
+      ],
+      "recuperada": true
+    },
+    "62": {
+      "titulo": "Plan de Emergencia de la Tripulación",
+      "estado": "verificada",
+      "imagenes": [
+        "pagina_018_img_01.jpeg"
+      ],
+      "recuperada": true
+    },
+    "55": {
+      "titulo": "Introducción al Curso Modelo OMI 1.41",
+      "estado": "verificada",
+      "imagenes": [],
+      "html_caracteres": 2050
+    },
+    "56": {
+      "titulo": "Accidentes históricos y lecciones para la gestión de multitudes",
+      "estado": "verificada",
+      "imagenes": [
+        "pagina_005_img_02.jpeg",
+        "pagina_006_img_02.jpeg"
+      ],
+      "html_caracteres": 8408
+    },
+    "57": {
+      "titulo": "Convenio SOLAS y seguridad de los buques de pasaje",
+      "estado": "verificada",
+      "imagenes": [
+        "pagina_007_img_02.jpeg"
+      ],
+      "html_caracteres": 5987
+    },
+    "58": {
+      "titulo": "Convenio y Código STCW",
+      "estado": "verificada",
+      "imagenes": [
+        "pagina_009_img_02.jpeg",
+        "pagina_010_img_03.jpeg"
+      ],
+      "html_caracteres": 4863
+    },
+    "59": {
+      "titulo": "Marco jurídico marítimo nacional chileno",
+      "estado": "verificada",
+      "imagenes": [],
+      "html_caracteres": 4172
+    },
+    "60": {
+      "titulo": "Funciones y responsabilidades del personal en emergencias",
+      "estado": "verificada",
+      "imagenes": [
+        "pagina_012_img_01.jpeg",
+        "pagina_012_img_02.jpeg",
+        "pagina_013_img_01.jpeg",
+        "pagina_013_img_02.jpeg",
+        "pagina_014_img_01.jpeg",
+        "pagina_014_img_02.jpeg",
+        "pagina_015_img_01.jpeg",
+        "pagina_015_img_02.jpeg"
+      ],
+      "html_caracteres": 9431
+    },
+    "63": {
+      "titulo": "Plan de Control de Incendios",
+      "estado": "verificada",
+      "imagenes": [
+        "pagina_019_img_01.jpeg",
+        "pagina_020_img_01.jpeg"
+      ],
+      "html_caracteres": 6004
+    },
+    "64": {
+      "titulo": "Plan de Control de Daños",
+      "estado": "verificada",
+      "imagenes": [
+        "pagina_021_img_01.jpeg",
+        "pagina_022_img_01.jpeg"
+      ],
+      "html_caracteres": 5084
+    },
+    "65": {
+      "titulo": "Organización de emergencias a bordo",
+      "estado": "verificada",
+      "imagenes": [
+        "pagina_023_img_01.jpeg",
+        "pagina_024_img_01.jpeg",
+        "pagina_025_img_01.jpeg",
+        "pagina_026_img_01.jpeg"
+      ],
+      "html_caracteres": 7377
+    },
+    "66": {
+      "titulo": "Cuadro de Obligaciones o Muster List",
+      "estado": "verificada",
+      "imagenes": [
+        "pagina_027_img_01.jpeg"
+      ],
+      "html_caracteres": 7847
+    },
+    "67": {
+      "titulo": "Alarmas, señales e instrucciones de emergencia",
+      "estado": "verificada",
+      "imagenes": [
+        "pagina_029_img_02.jpeg"
+      ],
+      "html_caracteres": 4962
+    },
+    "68": {
+      "titulo": "Importancia de los simulacros y los procedimientos",
+      "estado": "verificada",
+      "imagenes": [],
+      "html_caracteres": 4120
+    },
+    "69": {
+      "titulo": "Comportamiento humano en situaciones de emergencia",
+      "estado": "verificada",
+      "imagenes": [
+        "pagina_032_img_01.jpeg"
+      ],
+      "html_caracteres": 3625
+    },
+    "70": {
+      "titulo": "Organización y desplazamiento seguro de pasajeros",
+      "estado": "verificada",
+      "imagenes": [
+        "pagina_033_img_01.jpeg"
+      ],
+      "html_caracteres": 3021
+    },
+    "71": {
+      "titulo": "Técnicas de control y liderazgo de grupos",
+      "estado": "verificada",
+      "imagenes": [
+        "pagina_035_img_01.jpeg"
+      ],
+      "html_caracteres": 3432
+    },
+    "72": {
+      "titulo": "Técnicas de comunicación efectiva",
+      "estado": "verificada",
+      "imagenes": [
+        "pagina_036_img_01.jpeg"
+      ],
+      "html_caracteres": 5192
+    },
+    "73": {
+      "titulo": "Equipos para atender pasajeros durante emergencias",
+      "estado": "verificada",
+      "imagenes": [
+        "pagina_037_img_01.jpeg",
+        "pagina_038_img_01.jpeg",
+        "pagina_039_img_01.jpeg"
+      ],
+      "html_caracteres": 5188
+    },
+    "74": {
+      "titulo": "Gestión de pasajeros en pasillos, escaleras y vías de escape",
+      "estado": "verificada",
+      "imagenes": [
+        "pagina_040_img_01.jpeg",
+        "pagina_041_img_01.jpeg"
+      ],
+      "html_caracteres": 3305
+    },
+    "75": {
+      "titulo": "Mantenimiento de las rutas de escape libres de obstrucciones",
+      "estado": "verificada",
+      "imagenes": [
+        "pagina_042_img_01.jpeg",
+        "pagina_043_img_01.jpeg"
+      ],
+      "html_caracteres": 3978
+    },
+    "76": {
+      "titulo": "Procedimientos efectivos de reunión",
+      "estado": "verificada",
+      "imagenes": [
+        "pagina_044_img_01.jpeg"
+      ],
+      "html_caracteres": 1955
+    },
+    "77": {
+      "titulo": "Factores que influyen en el estrés y el pánico",
+      "estado": "verificada",
+      "imagenes": [
+        "pagina_045_img_01.jpeg",
+        "pagina_046_img_01.jpeg"
+      ],
+      "html_caracteres": 7366
+    },
+    "78": {
+      "titulo": "Uso de la lista de pasajeros para conteos",
+      "estado": "verificada",
+      "imagenes": [
+        "pagina_047_img_01.jpeg",
+        "pagina_048_img_01.jpeg"
+      ],
+      "html_caracteres": 4382
+    },
+    "79": {
+      "titulo": "Uso de dispositivos de salvamento para pasajeros",
+      "estado": "verificada",
+      "imagenes": [
+        "pagina_049_img_01.jpeg",
+        "pagina_049_img_02.jpeg"
+      ],
+      "html_caracteres": 5982
+    },
+    "80": {
+      "titulo": "Asistencia a niños, adultos mayores y personas con movilidad reducida",
+      "estado": "verificada",
+      "imagenes": [
+        "pagina_051_img_01.jpeg",
+        "pagina_051_img_02.jpeg"
+      ],
+      "html_caracteres": 3170
+    },
+    "81": {
+      "titulo": "Embarque y desembarque seguro de pasajeros",
+      "estado": "verificada",
+      "imagenes": [
+        "pagina_052_img_01.jpeg",
+        "pagina_053_img_01.jpeg"
+      ],
+      "html_caracteres": 4711
+    },
+    "82": {
+      "titulo": "Bibliografía del manual",
+      "estado": "verificada",
+      "imagenes": [],
+      "html_caracteres": 731
+    }
+  },
+  "prueba": {
+    "estado": "ok"
+  },
+  "actualizado_en": "2026-09-26T14:12:15"
+}

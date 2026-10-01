@@ -1,0 +1,690 @@
+{
+  "curso": "Curso Modelo OMI 1.41: Control de Multitudes, Seguridad de los Pasajeros y Formación en Seguridad para el Personal que Presta Asistencia Directa a los Pasajeros en Espacios Destinados a Pasajeros",
+  "documento_fuente": "CURSO OMI 1.41: ACTIVIDADES PARA LA PLATAFORMA",
+  "modulos": [
+    {
+      "numero": 1,
+      "titulo": "Módulo I",
+      "actividades": [
+        {
+          "id_logico": "omi141-m01-desarrollo-01",
+          "modulo": 1,
+          "titulo": "Actividad de desarrollo",
+          "paginas_fuente": [
+            1
+          ],
+          "estado": "extraido",
+          "recursos": [],
+          "incidencias": [],
+          "tipo": "desarrollo",
+          "escenario": "Usted acaba de incorporarse como tripulante a un moderno buque de pasaje que iniciará un crucero de siete días. Antes del zarpe, el Capitán reúne a toda la tripulación y anuncia: «En la mayoría de los accidentes marítimos graves, el problema no fue únicamente la emergencia, sino que la tripulación desconocía sus funciones, no dominaba los procedimientos o reaccionó demasiado tarde. Nuestra mejor herramienta para proteger la vida humana es la preparación». Como parte del programa de inducción, usted deberá elaborar un breve análisis que demuestre que comprende la importancia de la formación en sensibilización para el personal que presta asistencia directa a los pasajeros.",
+          "instrucciones": "Responda las preguntas fundamentando sus respuestas con los contenidos estudiados en el módulo. Justifique cada respuesta.",
+          "preguntas": [
+            {
+              "numero": 1,
+              "enunciado": "Explique con sus propias palabras por qué la capacitación permanente de la tripulación constituye una medida preventiva fundamental para la seguridad de un buque de pasaje."
+            },
+            {
+              "numero": 2,
+              "enunciado": "Describa tres responsabilidades que tiene un tripulante durante una emergencia, aun cuando no pertenezca al equipo especializado de lucha contra incendios o abandono del buque."
+            }
+          ]
+        },
+        {
+          "id_logico": "omi141-m01-discusion-01",
+          "modulo": 1,
+          "titulo": "Costa Concordia: cuando la preparación marca la diferencia",
+          "paginas_fuente": [
+            2
+          ],
+          "estado": "extraido",
+          "recursos": [],
+          "incidencias": [],
+          "tipo": "discusion",
+          "caso": "El 13 de enero de 2012, el crucero Costa Concordia encalló frente a la isla de Giglio, Italia, tras desviarse de su ruta. El accidente provocó una evacuación compleja de más de 4.000 personas y dejó 32 fallecidos. Las investigaciones posteriores concluyeron que diversos factores agravaron la emergencia, entre ellos: demora en declarar la emergencia; dificultades en la comunicación con los pasajeros; descoordinación durante la evacuación; escasa familiarización de algunos tripulantes con sus funciones de emergencia; y deficiencias en la gestión inicial del incidente. Este accidente generó importantes revisiones en los procedimientos internacionales de entrenamiento para tripulaciones de buques de pasaje.",
+          "pregunta_debate": "Si usted hubiese formado parte de la tripulación del Costa Concordia, ¿qué acciones preventivas considera que habrían contribuido a mejorar la respuesta inicial frente a la emergencia?",
+          "instrucciones": "Fundamente su respuesta utilizando los contenidos del módulo. Comente la publicación de al menos un compañero aportando una reflexión adicional.",
+          "requiere_interaccion_pares": true,
+          "minimo_respuestas_pares": 1
+        },
+        {
+          "id_logico": "omi141-m01-h5p-dragdrop-01",
+          "modulo": 1,
+          "titulo": "Relacionando la normativa con la seguridad del pasajero",
+          "paginas_fuente": [
+            2,
+            3,
+            4
+          ],
+          "estado": "extraido",
+          "recursos": [],
+          "incidencias": [],
+          "tipo": "h5p",
+          "h5p_tipo": "drag_and_drop",
+          "instrucciones": "Arrastre cada concepto hacia la definición que corresponda. Lea cuidadosamente todas las alternativas antes de comenzar. Puede intentarlo nuevamente hasta obtener la respuesta correcta.",
+          "parejas": [
+            {
+              "concepto": "SOLAS",
+              "definicion": "Convenio internacional cuyo principal objetivo es proteger la vida humana en el mar mediante requisitos mínimos de seguridad para los buques."
+            },
+            {
+              "concepto": "STCW",
+              "definicion": "Convenio internacional que establece las normas mínimas de formación, titulación y guardia para la gente de mar."
+            },
+            {
+              "concepto": "Curso Modelo OMI 1.41",
+              "definicion": "Programa de formación destinado a desarrollar competencias para asistir y controlar pasajeros durante situaciones de emergencia."
+            },
+            {
+              "concepto": "Capitán",
+              "definicion": "Persona responsable del mando general del buque y de dirigir la respuesta durante una emergencia."
+            },
+            {
+              "concepto": "Tripulación",
+              "definicion": "Conjunto de personas encargadas de ejecutar las funciones operacionales y de emergencia del buque."
+            },
+            {
+              "concepto": "Pasajero",
+              "definicion": "Persona transportada a bordo que depende de la orientación e instrucciones de la tripulación durante una emergencia."
+            },
+            {
+              "concepto": "Cultura de Seguridad",
+              "definicion": "Conjunto de valores, conocimientos y conductas orientadas a prevenir accidentes y proteger la vida humana."
+            },
+            {
+              "concepto": "Preparación",
+              "definicion": "Proceso continuo de entrenamiento que permite responder eficazmente ante una emergencia."
+            }
+          ]
+        },
+        {
+          "id_logico": "omi141-m01-quiz-01",
+          "modulo": 1,
+          "titulo": "Test del Módulo I",
+          "paginas_fuente": [
+            4,
+            5
+          ],
+          "estado": "extraido",
+          "recursos": [],
+          "incidencias": [],
+          "tipo": "quiz",
+          "instrucciones": null,
+          "preguntas": [
+            {
+              "numero": 1,
+              "enunciado": "¿Cuál es el principal objetivo del Convenio SOLAS?",
+              "alternativas": [
+                {
+                  "texto": "Regular el transporte internacional de mercancías.",
+                  "correcta": false
+                },
+                {
+                  "texto": "Establecer normas para la protección de la vida humana en el mar.",
+                  "correcta": true
+                },
+                {
+                  "texto": "Regular la pesca artesanal.",
+                  "correcta": false
+                },
+                {
+                  "texto": "Controlar el comercio marítimo internacional.",
+                  "correcta": false
+                }
+              ],
+              "retroalimentacion": "Correcto. El Convenio SOLAS constituye el principal instrumento internacional destinado a garantizar la seguridad de los buques y la protección de la vida humana en el mar.",
+              "paginas_fuente": [
+                4
+              ]
+            },
+            {
+              "numero": 2,
+              "enunciado": "¿Por qué es importante que toda la tripulación conozca los procedimientos de emergencia?",
+              "alternativas": [
+                {
+                  "texto": "Porque solamente así podrá reemplazar al Capitán.",
+                  "correcta": false
+                },
+                {
+                  "texto": "Porque reduce los costos operacionales del buque.",
+                  "correcta": false
+                },
+                {
+                  "texto": "Porque permite responder de forma coordinada, rápida y segura ante una emergencia.",
+                  "correcta": true
+                },
+                {
+                  "texto": "Porque evita las inspecciones de la Autoridad Marítima.",
+                  "correcta": false
+                }
+              ],
+              "retroalimentacion": "Correcto. La preparación previa y el conocimiento de las funciones asignadas permiten que la tripulación actúe de forma organizada, disminuyendo los riesgos para pasajeros y tripulantes.",
+              "paginas_fuente": [
+                5
+              ]
+            }
+          ]
+        }
+      ],
+      "retroalimentacion_final": {
+        "texto": "¡Felicitaciones! Ha finalizado el Módulo I. En esta unidad ha conocido la importancia de la formación en sensibilización para el personal que presta asistencia directa a los pasajeros, comprendiendo el papel que desempeñan el Convenio SOLAS, el Convenio STCW y el Curso Modelo OMI 1.41 en la protección de la vida humana en el mar. En el siguiente módulo profundizará en los planes de emergencia del buque, el cuadro de obligaciones, las alarmas y señales de emergencia, comprendiendo cómo cada miembro de la tripulación contribuye a una respuesta organizada y eficaz ante situaciones críticas.",
+        "paginas_fuente": [
+          5
+        ]
+      }
+    },
+    {
+      "numero": 2,
+      "titulo": "Módulo II",
+      "actividades": [
+        {
+          "id_logico": "omi141-m02-desarrollo-01",
+          "modulo": 2,
+          "titulo": "Actividad de desarrollo",
+          "paginas_fuente": [
+            6
+          ],
+          "estado": "extraido",
+          "recursos": [],
+          "incidencias": [],
+          "tipo": "desarrollo",
+          "escenario": "Durante una inspección de rutina realizada por la Autoridad Marítima a un buque de pasaje, un inspector entrevista a varios tripulantes y les solicita identificar la finalidad del Plan de Emergencia, el Plan de Control de Incendios, el Plan de Control de Daños y el Cuadro de Obligaciones. Aunque algunos conocen su existencia, varios no logran explicar claramente para qué sirven ni cómo contribuyen a una respuesta organizada durante una emergencia. Como parte de la formación inicial de la tripulación, el Capitán dispone que todo el personal refuerce sus conocimientos sobre estos documentos, comprendiendo que una respuesta eficaz depende del conocimiento previo de los planes establecidos a bordo.",
+          "instrucciones": "Responda con base en los contenidos estudiados en este módulo.",
+          "preguntas": [
+            {
+              "numero": 1,
+              "enunciado": "Explique por qué el conocimiento de los planes de emergencia del buque constituye un elemento fundamental para proteger la vida de pasajeros y tripulantes durante una situación de emergencia."
+            },
+            {
+              "numero": 2,
+              "enunciado": "Elija dos de los siguientes documentos estudiados en el módulo: Plan de Emergencia, Plan de Control de Incendios, Plan de Control de Daños o Cuadro de Obligaciones. Explique la finalidad de cada uno y describa cómo contribuyen al desarrollo de una respuesta organizada durante una emergencia a bordo."
+            }
+          ]
+        },
+        {
+          "id_logico": "omi141-m02-discusion-01",
+          "modulo": 2,
+          "titulo": "El incendio del ferry Scandinavian Star: la importancia de conocer los planes de emergencia",
+          "paginas_fuente": [
+            6,
+            7
+          ],
+          "estado": "extraido",
+          "recursos": [],
+          "incidencias": [],
+          "tipo": "discusion",
+          "caso": "El 7 de abril de 1990, el ferry de pasajeros Scandinavian Star sufrió un incendio mientras navegaba entre Noruega y Dinamarca. El fuego se propagó rápidamente por distintas cubiertas, dificultando la evacuación de pasajeros y tripulantes. Las investigaciones posteriores determinaron que diversos factores influyeron en la gravedad del accidente, entre ellos la rápida propagación del humo, dificultades para orientar a los pasajeros y problemas relacionados con la preparación de la tripulación y la aplicación de los procedimientos de emergencia. Este accidente dejó importantes lecciones para la industria marítima respecto de la necesidad de conocer previamente los planes de emergencia y las funciones asignadas a cada miembro de la tripulación.",
+          "pregunta_debate": "¿Por qué cree usted que el conocimiento previo del Plan de Emergencia y del Cuadro de Obligaciones puede influir directamente en el resultado de una emergencia a bordo de un buque de pasaje?",
+          "instrucciones": "Fundamente su respuesta utilizando los contenidos del módulo. Comente la publicación de al menos un compañero aportando una reflexión adicional.",
+          "requiere_interaccion_pares": true,
+          "minimo_respuestas_pares": 1
+        },
+        {
+          "id_logico": "omi141-m02-h5p-coursepresentation-01",
+          "modulo": 2,
+          "titulo": "¿Qué documento utilizaría?",
+          "paginas_fuente": [
+            7,
+            8
+          ],
+          "estado": "extraido",
+          "recursos": [],
+          "incidencias": [],
+          "tipo": "h5p",
+          "h5p_tipo": "course_presentation",
+          "h5p_tipo_ejecucion": "single_choice_set",
+          "instrucciones": "Lea cada situación y seleccione el documento que corresponde.",
+          "situaciones": [
+            {
+              "numero": 1,
+              "situacion": "Se necesita conocer la ubicación de los extintores, estaciones contra incendios, vías de evacuación y sistemas fijos de extinción.",
+              "respuesta_correcta": "Plan de Control de Incendios.",
+              "retroalimentacion": null
+            },
+            {
+              "numero": 2,
+              "situacion": "Se requiere identificar la ubicación de mamparos estancos, bombas de achique y compartimentos afectados por una inundación.",
+              "respuesta_correcta": "Plan de Control de Daños.",
+              "retroalimentacion": null
+            },
+            {
+              "numero": 3,
+              "situacion": "Es necesario conocer las responsabilidades específicas asignadas a cada miembro de la tripulación durante una emergencia.",
+              "respuesta_correcta": "Cuadro de Obligaciones.",
+              "retroalimentacion": null
+            },
+            {
+              "numero": 4,
+              "situacion": "Se requiere conocer la organización general de la respuesta frente a una emergencia a bordo.",
+              "respuesta_correcta": "Plan de Emergencia.",
+              "retroalimentacion": null
+            }
+          ]
+        },
+        {
+          "id_logico": "omi141-m02-quiz-01",
+          "modulo": 2,
+          "titulo": "Test del Módulo II",
+          "paginas_fuente": [
+            8,
+            9
+          ],
+          "estado": "extraido",
+          "recursos": [],
+          "incidencias": [],
+          "tipo": "quiz",
+          "instrucciones": null,
+          "preguntas": [
+            {
+              "numero": 1,
+              "enunciado": "¿Cuál es la finalidad principal del Cuadro de Obligaciones?",
+              "alternativas": [
+                {
+                  "texto": "Registrar las inspecciones realizadas al buque.",
+                  "correcta": false
+                },
+                {
+                  "texto": "Asignar las funciones que debe cumplir cada tripulante durante una emergencia.",
+                  "correcta": true
+                },
+                {
+                  "texto": "Controlar el embarque de pasajeros.",
+                  "correcta": false
+                },
+                {
+                  "texto": "Registrar el mantenimiento de los equipos de navegación.",
+                  "correcta": false
+                }
+              ],
+              "retroalimentacion": "Correcto. El Cuadro de Obligaciones establece las responsabilidades que cada miembro de la tripulación debe cumplir durante las distintas situaciones de emergencia.",
+              "paginas_fuente": [
+                8
+              ]
+            },
+            {
+              "numero": 2,
+              "enunciado": "¿Quién tiene la responsabilidad de ordenar el abandono del buque?",
+              "alternativas": [
+                {
+                  "texto": "El Primer Oficial.",
+                  "correcta": false
+                },
+                {
+                  "texto": "El Oficial de Seguridad.",
+                  "correcta": false
+                },
+                {
+                  "texto": "El Capitán.",
+                  "correcta": true
+                },
+                {
+                  "texto": "El Jefe de Máquinas.",
+                  "correcta": false
+                }
+              ],
+              "retroalimentacion": "Correcto. De acuerdo con el Convenio SOLAS y los procedimientos operacionales de emergencia, la orden de abandono del buque solo puede ser emitida por el Capitán.",
+              "paginas_fuente": [
+                9
+              ]
+            }
+          ]
+        }
+      ],
+      "retroalimentacion_final": {
+        "texto": "Ha finalizado el Módulo II. En esta unidad ha conocido la importancia de los planes de emergencia del buque, comprendiendo la función que cumplen el Plan de Emergencia, el Plan de Control de Incendios, el Plan de Control de Daños y el Cuadro de Obligaciones como herramientas fundamentales para organizar una respuesta eficaz ante situaciones de emergencia. Asimismo, ha comprendido que el conocimiento previo de estos documentos permite a cada miembro de la tripulación actuar de manera coordinada, oportuna y segura, contribuyendo a la protección de la vida humana en el mar. En el siguiente módulo profundizará en los procedimientos de reunión, control y evacuación de pasajeros, reconociendo la importancia de mantener el orden, orientar adecuadamente a las personas y aplicar las medidas necesarias para desarrollar una evacuación segura y organizada.",
+        "paginas_fuente": [
+          9
+        ]
+      }
+    },
+    {
+      "numero": 3,
+      "titulo": "Módulo III",
+      "actividades": [
+        {
+          "id_logico": "omi141-m03-desarrollo-01",
+          "modulo": 3,
+          "titulo": "Actividad de desarrollo",
+          "paginas_fuente": [
+            9,
+            10
+          ],
+          "estado": "extraido",
+          "recursos": [],
+          "incidencias": [],
+          "tipo": "desarrollo",
+          "escenario": "Durante un crucero, un incendio controlado en la sala de máquinas obliga a reunir preventivamente a los pasajeros en las estaciones de reunión. Aunque la situación está bajo control, algunos pasajeros comienzan a correr por los pasillos, otros intentan regresar a sus camarotes para buscar pertenencias y un grupo empieza a difundir información incorrecta sobre la gravedad de la emergencia. La tripulación debe actuar con rapidez para mantener el orden, comunicar instrucciones claras y aplicar las técnicas de control de multitudes establecidas en los procedimientos del buque.",
+          "instrucciones": "Responda con base en los contenidos estudiados en este módulo. Justifique cada respuesta.",
+          "preguntas": [
+            {
+              "numero": 1,
+              "enunciado": "Explique qué técnicas de comunicación debería utilizar la tripulación para reducir la ansiedad de los pasajeros y mantener el orden durante esta situación."
+            },
+            {
+              "numero": 2,
+              "enunciado": "¿Qué medidas de control de multitudes deberían aplicarse para garantizar un desplazamiento seguro hacia las estaciones de reunión?"
+            }
+          ]
+        },
+        {
+          "id_logico": "omi141-m03-discusion-01",
+          "modulo": 3,
+          "titulo": "Evacuación del Costa Concordia (2012)",
+          "paginas_fuente": [
+            10
+          ],
+          "estado": "extraido",
+          "recursos": [],
+          "incidencias": [],
+          "tipo": "discusion",
+          "caso": "Durante la evacuación del Costa Concordia, muchos pasajeros experimentaron confusión debido a la información contradictoria recibida en los primeros momentos de la emergencia. Esta situación generó retrasos, incertidumbre y dificultades para organizar el desplazamiento hacia las estaciones de reunión y los botes salvavidas. El accidente demostró que una comunicación clara, el liderazgo de la tripulación y el control adecuado de los pasajeros son factores determinantes para reducir el pánico y facilitar una evacuación segura.",
+          "pregunta_debate": "¿Qué acciones concretas debería adoptar la tripulación para controlar una multitud cuando algunos pasajeros comienzan a actuar de forma desordenada o a difundir información que puede generar pánico?",
+          "instrucciones": "Fundamente su respuesta utilizando los contenidos del módulo. Comente la publicación de al menos un compañero aportando una reflexión adicional.",
+          "requiere_interaccion_pares": true,
+          "minimo_respuestas_pares": 1
+        },
+        {
+          "id_logico": "omi141-m03-h5p-hotspots-01",
+          "modulo": 3,
+          "titulo": "Equipos utilizados para asistir a pasajeros durante una emergencia",
+          "paginas_fuente": [
+            11
+          ],
+          "estado": "requiere_recurso",
+          "recursos": [
+            {
+              "tipo": "imagen",
+              "descripcion": "Ilustración de una estación de reunión o de un sector de embarque con los diferentes equipos visibles.",
+              "requerido": true,
+              "disponible": false,
+              "archivo": null,
+              "paginas_fuente": []
+            }
+          ],
+          "incidencias": [
+            {
+              "codigo": "RECURSO_IMAGEN_NO_DISPONIBLE",
+              "descripcion": "La actividad Image Hotspots requiere una ilustración de una estación de reunión o de un sector de embarque, pero la imagen no está incluida en el documento fuente.",
+              "accion_humana": "Proporcionar la ilustración requerida antes de crear la actividad H5P."
+            },
+            {
+              "codigo": "H5P_IMAGE_HOTSPOTS_SIN_IMAGEN",
+              "descripcion": "La actividad Image Hotspots requiere una imagen base y no fue encontrada.",
+              "accion_humana": "Agregar la imagen correspondiente junto a esta actividad en el documento y volver a procesar la actividad."
+            }
+          ],
+          "tipo": "h5p",
+          "h5p_tipo": "image_hotspots",
+          "instrucciones": "Identifique los elementos indicados mediante puntos interactivos en la ilustración.",
+          "hotspots": [
+            {
+              "nombre": "Chaleco salvavidas",
+              "descripcion": null
+            },
+            {
+              "nombre": "Radio portátil",
+              "descripcion": null
+            },
+            {
+              "nombre": "Botiquín de primeros auxilios",
+              "descripcion": null
+            },
+            {
+              "nombre": "Silla de evacuación",
+              "descripcion": null
+            },
+            {
+              "nombre": "Linterna de emergencia",
+              "descripcion": null
+            }
+          ]
+        },
+        {
+          "id_logico": "omi141-m03-quiz-01",
+          "modulo": 3,
+          "titulo": "Test del Módulo III",
+          "paginas_fuente": [
+            11,
+            12
+          ],
+          "estado": "extraido",
+          "recursos": [],
+          "incidencias": [],
+          "tipo": "quiz",
+          "instrucciones": null,
+          "preguntas": [
+            {
+              "numero": 1,
+              "enunciado": "¿Cuál es el principal objetivo de una comunicación efectiva durante una emergencia?",
+              "alternativas": [
+                {
+                  "texto": "Entregar la mayor cantidad de información técnica posible.",
+                  "correcta": false
+                },
+                {
+                  "texto": "Mantener informados a los pasajeros mediante instrucciones claras, precisas y oportunas para favorecer una respuesta ordenada.",
+                  "correcta": true
+                },
+                {
+                  "texto": "Evitar que los pasajeros hagan preguntas.",
+                  "correcta": false
+                },
+                {
+                  "texto": "Permitir que cada pasajero decida cómo actuar.",
+                  "correcta": false
+                }
+              ],
+              "retroalimentacion": "Correcto. Una comunicación clara y oportuna reduce la incertidumbre, favorece la cooperación de los pasajeros y contribuye al control de la situación.",
+              "paginas_fuente": [
+                11
+              ]
+            },
+            {
+              "numero": 2,
+              "enunciado": "Durante una evacuación, un pasajero comienza a empujar a otras personas, desobedecer las instrucciones y provocar pánico entre quienes lo rodean. ¿Cuál debería ser la actuación más adecuada de la tripulación?",
+              "alternativas": [
+                {
+                  "texto": "Ignorar su comportamiento para evitar llamar la atención.",
+                  "correcta": false
+                },
+                {
+                  "texto": "Permitir que continúe desplazándose libremente.",
+                  "correcta": false
+                },
+                {
+                  "texto": "Aplicar las técnicas de control de multitudes, aislar al pasajero si la situación lo requiere y continuar guiando al resto de los pasajeros conforme a los procedimientos establecidos.",
+                  "correcta": true
+                },
+                {
+                  "texto": "Solicitar a los demás pasajeros que controlen la situación.",
+                  "correcta": false
+                }
+              ],
+              "retroalimentacion": "Correcto. Cuando el comportamiento de una persona pone en riesgo la seguridad colectiva, la tripulación debe intervenir de manera profesional aplicando los procedimientos de control de multitudes. Si es necesario, el pasajero puede ser aislado para evitar que genere pánico o interfiera con la evacuación, siempre actuando con criterio, respeto y conforme a los procedimientos del buque.",
+              "paginas_fuente": [
+                12
+              ]
+            }
+          ]
+        }
+      ],
+      "retroalimentacion_final": {
+        "texto": "¡Felicitaciones! Ha finalizado el Módulo III. En esta unidad ha comprendido cómo el comportamiento humano influye en la respuesta ante una emergencia y ha identificado la importancia de una comunicación clara, del control de multitudes y del uso adecuado de los equipos destinados a asistir a los pasajeros. Asimismo, ha reconocido que el liderazgo de la tripulación, la aplicación de los procedimientos establecidos y el empleo correcto de los equipos de apoyo contribuyen a mantener el orden, reducir el pánico y proteger la vida humana durante una emergencia. En el siguiente módulo profundizará en la organización de la evacuación de pasajeros, los procedimientos de reunión, el uso de listas de control, los dispositivos de salvamento y la asistencia a personas con necesidades especiales, consolidando las competencias necesarias para una evacuación segura y eficaz.",
+        "paginas_fuente": [
+          12
+        ]
+      }
+    },
+    {
+      "numero": 4,
+      "titulo": "Módulo IV",
+      "actividades": [
+        {
+          "id_logico": "omi141-m04-desarrollo-01",
+          "modulo": 4,
+          "titulo": "Actividad de desarrollo",
+          "paginas_fuente": [
+            13
+          ],
+          "estado": "extraido",
+          "recursos": [],
+          "incidencias": [],
+          "tipo": "desarrollo",
+          "escenario": "Un ferry de pasajeros navega con su capacidad completa cuando se produce un incendio controlado en una sala técnica. El Capitán ordena la reunión preventiva de los pasajeros en las estaciones asignadas. Durante el desplazamiento, algunos pasajeros regresan a sus camarotes para buscar pertenencias, mientras otros presentan dificultades para caminar debido a su edad o condición física. La tripulación debe mantener despejadas las vías de evacuación, asistir a quienes lo requieran, realizar el conteo de pasajeros y preparar el eventual uso de los dispositivos de salvamento.",
+          "instrucciones": "Responda con base en los contenidos estudiados en este módulo. Justifique cada respuesta.",
+          "preguntas": [
+            {
+              "numero": 1,
+              "enunciado": "Explique por qué es fundamental mantener libres de obstrucciones las rutas de evacuación durante una emergencia y cuáles podrían ser las consecuencias de no hacerlo."
+            },
+            {
+              "numero": 2,
+              "enunciado": "Describa las acciones que debería realizar la tripulación para asistir de manera segura a niños, adultos mayores y personas con movilidad reducida durante la evacuación."
+            }
+          ]
+        },
+        {
+          "id_logico": "omi141-m04-discusion-01",
+          "modulo": 4,
+          "titulo": "Incendio a bordo del ferry Scandinavian Star (1990)",
+          "paginas_fuente": [
+            13,
+            14
+          ],
+          "estado": "extraido",
+          "recursos": [],
+          "incidencias": [],
+          "tipo": "discusion",
+          "caso": "El incendio ocurrido en el ferry Scandinavian Star evidenció la importancia de contar con rutas de evacuación claramente señalizadas, procedimientos de reunión eficaces y una tripulación preparada para asistir y orientar a los pasajeros en condiciones de alta complejidad. Entre las lecciones aprendidas se destaca la necesidad de mantener despejadas las vías de evacuación, proporcionar instrucciones claras y prestar especial atención a las personas que requieren ayuda adicional.",
+          "pregunta_debate": "¿Qué medidas considera prioritarias para garantizar una evacuación ordenada cuando existen pasajeros con diferentes capacidades físicas, edades y niveles de comprensión de la emergencia?",
+          "instrucciones": "Fundamente su respuesta utilizando los contenidos del módulo. Comente la publicación de al menos un compañero aportando una reflexión adicional.",
+          "requiere_interaccion_pares": true,
+          "minimo_respuestas_pares": 1
+        },
+        {
+          "id_logico": "omi141-m04-h5p-fillblanks-01",
+          "modulo": 4,
+          "titulo": "Procedimientos de evacuación de pasajeros",
+          "paginas_fuente": [
+            14
+          ],
+          "estado": "extraido",
+          "recursos": [],
+          "incidencias": [],
+          "tipo": "h5p",
+          "h5p_tipo": "fill_in_the_blanks",
+          "instrucciones": "Complete las palabras faltantes utilizando los conceptos estudiados en el módulo.",
+          "texto": "Durante una emergencia, la tripulación debe conducir a los pasajeros hacia las __________ de reunión utilizando las __________ de evacuación previamente establecidas. Antes de abandonar el buque, se debe realizar el __________ de pasajeros y brindar asistencia prioritaria a __________, adultos mayores y personas con movilidad reducida. Finalmente, el embarque en los dispositivos de __________ deberá efectuarse siguiendo las instrucciones del personal responsable.",
+          "espacios": [
+            {
+              "numero": 1,
+              "respuestas_aceptadas": [
+                "estaciones"
+              ]
+            },
+            {
+              "numero": 2,
+              "respuestas_aceptadas": [
+                "rutas",
+                "vías"
+              ]
+            },
+            {
+              "numero": 3,
+              "respuestas_aceptadas": [
+                "conteo"
+              ]
+            },
+            {
+              "numero": 4,
+              "respuestas_aceptadas": [
+                "niños"
+              ]
+            },
+            {
+              "numero": 5,
+              "respuestas_aceptadas": [
+                "salvamento"
+              ]
+            }
+          ]
+        },
+        {
+          "id_logico": "omi141-m04-quiz-01",
+          "modulo": 4,
+          "titulo": "Test del Módulo IV",
+          "paginas_fuente": [
+            14,
+            15
+          ],
+          "estado": "extraido",
+          "recursos": [],
+          "incidencias": [],
+          "tipo": "quiz",
+          "instrucciones": null,
+          "preguntas": [
+            {
+              "numero": 1,
+              "enunciado": "¿Cuál es el principal objetivo de realizar el conteo de pasajeros en una estación de reunión?",
+              "alternativas": [
+                {
+                  "texto": "Verificar el equipaje transportado.",
+                  "correcta": false
+                },
+                {
+                  "texto": "Confirmar que todos los pasajeros hayan llegado al punto de reunión e identificar posibles personas faltantes.",
+                  "correcta": true
+                },
+                {
+                  "texto": "Organizar la distribución de alimentos.",
+                  "correcta": false
+                },
+                {
+                  "texto": "Determinar la capacidad del buque.",
+                  "correcta": false
+                }
+              ],
+              "retroalimentacion": "Correcto. El conteo de pasajeros permite verificar la presencia de todas las personas y adoptar oportunamente las acciones necesarias en caso de detectar pasajeros no localizados.",
+              "paginas_fuente": [
+                14,
+                15
+              ]
+            },
+            {
+              "numero": 2,
+              "enunciado": "¿Cuál de las siguientes acciones refleja una asistencia adecuada durante una evacuación?",
+              "alternativas": [
+                {
+                  "texto": "Permitir que cada pasajero elija libremente la ruta de evacuación.",
+                  "correcta": false
+                },
+                {
+                  "texto": "Priorizar únicamente a los pasajeros más jóvenes.",
+                  "correcta": false
+                },
+                {
+                  "texto": "Guiar a los pasajeros por las rutas establecidas, mantener despejadas las vías de evacuación y prestar asistencia especial a quienes presenten mayores dificultades de desplazamiento.",
+                  "correcta": true
+                },
+                {
+                  "texto": "Esperar que los pasajeros soliciten ayuda antes de intervenir.",
+                  "correcta": false
+                }
+              ],
+              "retroalimentacion": "Correcto. Una evacuación segura requiere que la tripulación conduzca a los pasajeros por las rutas establecidas, mantenga el orden durante el desplazamiento y brinde apoyo prioritario a quienes presenten necesidades especiales.",
+              "paginas_fuente": [
+                15
+              ]
+            }
+          ]
+        }
+      ],
+      "retroalimentacion_final": {
+        "texto": "¡Felicitaciones! Ha finalizado el Módulo IV. En esta unidad ha adquirido los conocimientos necesarios para colaborar en la evacuación segura de los pasajeros, comprendiendo la importancia de mantener despejadas las rutas de evacuación, aplicar procedimientos efectivos de reunión, realizar el conteo de pasajeros y utilizar adecuadamente los dispositivos de salvamento. Asimismo, ha reconocido la necesidad de prestar una atención prioritaria a niños, adultos mayores y personas con movilidad reducida, contribuyendo a una evacuación organizada, segura y orientada a la protección de la vida humana en el mar. Con la finalización de este módulo, ha completado satisfactoriamente los contenidos del Curso Modelo OMI 1.41 «Control de Multitudes, Seguridad de los Pasajeros y Formación en Seguridad para el Personal que Presta Asistencia Directa a los Pasajeros en Espacios Destinados a Pasajeros», fortaleciendo las competencias necesarias para actuar de manera profesional, coordinada y eficaz ante situaciones de emergencia a bordo de buques de pasaje.",
+        "paginas_fuente": [
+          15
+        ]
+      }
+    }
+  ]
+}

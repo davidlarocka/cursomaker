@@ -1,0 +1,370 @@
+{
+  "asignaciones": {
+    "pagina_012_img_01.jpeg": {
+      "archivo": "pagina_012_img_01.jpeg",
+      "contenido": "Funciones y responsabilidades del personal en emergencias",
+      "tipo_estructura": "lista",
+      "indice_subseccion": 2,
+      "titulo_subseccion": "Guiar a los pasajeros hacia las estaciones de reunión",
+      "justificacion": "La señal muestra una estación de reunión y flechas que orientan a las personas hacia ella, por lo que corresponde directamente a la acción de guiar a los pasajeros al punto asignado."
+    },
+    "pagina_012_img_02.jpeg": {
+      "archivo": "pagina_012_img_02.jpeg",
+      "contenido": "Funciones y responsabilidades del personal en emergencias",
+      "tipo_estructura": "lista",
+      "indice_subseccion": 2,
+      "titulo_subseccion": "Guiar a los pasajeros hacia las estaciones de reunión",
+      "justificacion": "La imagen muestra al personal de emergencia conduciendo a pasajeros por una ruta interior de evacuación, controlando su desplazamiento hacia un punto seguro o estación de reunión."
+    },
+    "pagina_013_img_01.jpeg": {
+      "archivo": "pagina_013_img_01.jpeg",
+      "contenido": "Funciones y responsabilidades del personal en emergencias",
+      "tipo_estructura": "lista",
+      "indice_subseccion": 5,
+      "titulo_subseccion": "Reunir y contabilizar a los pasajeros",
+      "justificacion": "La imagen muestra a los pasajeros reunidos de forma ordenada en un grupo, aparentemente bajo la coordinación de una persona, lo que se relaciona con la organización y contabilización en una estación de reunión."
+    },
+    "pagina_013_img_02.jpeg": {
+      "archivo": "pagina_013_img_02.jpeg",
+      "contenido": "Funciones y responsabilidades del personal en emergencias",
+      "tipo_estructura": "lista",
+      "indice_subseccion": 3,
+      "titulo_subseccion": "Asistir a pasajeros vulnerables",
+      "justificacion": "La imagen muestra a una pasajera usuaria de silla de ruedas junto a un buque, lo que se relaciona directamente con la asistencia a personas con movilidad reducida para garantizar su seguridad."
+    },
+    "pagina_014_img_01.jpeg": {
+      "archivo": "pagina_014_img_01.jpeg",
+      "contenido": "Funciones y responsabilidades del personal en emergencias",
+      "tipo_estructura": "lista",
+      "indice_subseccion": 6,
+      "titulo_subseccion": "Asistir en el uso de equipos de salvamento",
+      "justificacion": "Los pasajeros llevan chalecos salvavidas y un tripulante parece explicar o verificar su uso, lo que corresponde a la asistencia en el manejo de equipos de salvamento."
+    },
+    "pagina_014_img_02.jpeg": {
+      "archivo": "pagina_014_img_02.jpeg",
+      "contenido": "Funciones y responsabilidades del personal en emergencias",
+      "tipo_estructura": "lista",
+      "indice_subseccion": 6,
+      "titulo_subseccion": "Asistir en el uso de equipos de salvamento",
+      "justificacion": "La imagen muestra a la tripulación realizando una demostración ante pasajeros que llevan chalecos salvavidas, lo que corresponde directamente a explicar y asistir en el uso de equipos de salvamento."
+    },
+    "pagina_015_img_01.jpeg": {
+      "archivo": "pagina_015_img_01.jpeg",
+      "contenido": "Funciones y responsabilidades del personal en emergencias",
+      "tipo_estructura": "lista",
+      "indice_subseccion": 6,
+      "titulo_subseccion": "Asistir en el uso de equipos de salvamento",
+      "justificacion": "La imagen muestra a un tripulante ayudando a un pasajero a colocarse un chaleco salvavidas, una tarea directamente relacionada con la asistencia en el uso de equipos de salvamento."
+    },
+    "pagina_015_img_02.jpeg": {
+      "archivo": "pagina_015_img_02.jpeg",
+      "contenido": "Funciones y responsabilidades del personal en emergencias",
+      "tipo_estructura": "lista",
+      "indice_subseccion": 7,
+      "titulo_subseccion": "Cumplir estrictamente el Cuadro de Obligaciones",
+      "justificacion": "La imagen muestra directamente un Cuadro de Obligaciones para una emergencia de abandono, con funciones específicas asignadas a cada cargo de la tripulación, lo que corresponde al cumplimiento estricto de las tareas designadas."
+    },
+    "pagina_005_img_02.jpeg": {
+      "archivo": "pagina_005_img_02.jpeg",
+      "contenido": "Accidentes históricos y lecciones para la gestión de multitudes",
+      "tipo_estructura": "encabezados",
+      "indice_subseccion": 0,
+      "titulo_subseccion": "RMS Titanic, 1912",
+      "justificacion": "La imagen representa explícitamente el hundimiento del RMS Titanic en 1912, con el buque entre icebergs y la evacuación en botes salvavidas, por lo que corresponde directamente a esta subsección."
+    },
+    "pagina_006_img_02.jpeg": {
+      "archivo": "pagina_006_img_02.jpeg",
+      "contenido": "Accidentes históricos y lecciones para la gestión de multitudes",
+      "tipo_estructura": "encabezados",
+      "indice_subseccion": 3,
+      "titulo_subseccion": "Costa Concordia, 2012",
+      "justificacion": "La imagen muestra directamente al crucero Costa Concordia escorado y parcialmente hundido, por lo que corresponde a la subsección dedicada a su naufragio en 2012."
+    },
+    "pagina_007_img_02.jpeg": {
+      "archivo": "pagina_007_img_02.jpeg",
+      "contenido": "Convenio SOLAS y seguridad de los buques de pasaje",
+      "tipo_estructura": "encabezados",
+      "indice_subseccion": 1,
+      "titulo_subseccion": "Exigencias especiales para los buques de pasaje",
+      "justificacion": "La imagen muestra la portada oficial de SOLAS, convenio citado directamente como fuente de las disposiciones especiales de seguridad aplicables a los buques de pasaje."
+    },
+    "pagina_009_img_02.jpeg": {
+      "archivo": "pagina_009_img_02.jpeg",
+      "contenido": "Convenio y Código STCW",
+      "tipo_estructura": "encabezados",
+      "indice_subseccion": 0,
+      "titulo_subseccion": "Disposiciones STCW derivadas de SOLAS para buques de pasaje",
+      "justificacion": "La portada identificada con las siglas STCW se relaciona directamente con la subsección que explica la Regla V/2 y las secciones A-V/2 y B-V/2 del Código STCW para el personal de buques de pasaje."
+    },
+    "pagina_010_img_03.jpeg": {
+      "archivo": "pagina_010_img_03.jpeg",
+      "contenido": "Convenio y Código STCW",
+      "tipo_estructura": "encabezados",
+      "indice_subseccion": 0,
+      "titulo_subseccion": "Disposiciones STCW derivadas de SOLAS para buques de pasaje",
+      "justificacion": "La imagen relaciona directamente SOLAS, la Regla V/2 del STCW y el Curso Modelo OMI 1.41, mostrando cómo las exigencias de SOLAS se traducen en formación obligatoria para la tripulación de buques de pasaje. Esto coincide con la subsección sobre las disposiciones STCW derivadas de SOLAS."
+    },
+    "pagina_016_img_01.jpeg": {
+      "archivo": "pagina_016_img_01.jpeg",
+      "contenido": "Tipos de emergencias a bordo y acciones iniciales",
+      "tipo_estructura": "encabezados",
+      "indice_subseccion": 0,
+      "titulo_subseccion": "Situaciones de emergencia y medidas iniciales",
+      "justificacion": "La imagen muestra una aparente evacuación por humo en una embarcación, lo que se relaciona directamente con una emergencia por incendio y con las medidas iniciales de evacuación segura descritas en esta subsección."
+    },
+    "pagina_018_img_01.jpeg": {
+      "archivo": "pagina_018_img_01.jpeg",
+      "contenido": "Plan de Emergencia de la Tripulación",
+      "tipo_estructura": "encabezados",
+      "indice_subseccion": 1,
+      "titulo_subseccion": "Contenido mínimo",
+      "justificacion": "La imagen representa directamente el contenido mínimo de un plan de emergencia: rutas de evacuación, estaciones de reunión y embarque, alarmas, comunicaciones y ubicación de equipos y medios de emergencia."
+    },
+    "pagina_019_img_01.jpeg": {
+      "archivo": "pagina_019_img_01.jpeg",
+      "contenido": "Plan de Control de Incendios",
+      "tipo_estructura": "encabezados",
+      "indice_subseccion": 0,
+      "titulo_subseccion": "Finalidad",
+      "justificacion": "La imagen muestra un incendio activo a bordo de un buque, el tipo de siniestro ante el cual el Plan de Control de Incendios permite organizar una respuesta rápida, coordinada y segura."
+    },
+    "pagina_020_img_01.jpeg": {
+      "archivo": "pagina_020_img_01.jpeg",
+      "contenido": "Plan de Control de Incendios",
+      "tipo_estructura": "encabezados",
+      "indice_subseccion": 1,
+      "titulo_subseccion": "Información relevante",
+      "justificacion": "La imagen muestra gráficamente la ubicación de equipos de extinción, alarmas, detectores, rociadores y otros elementos de seguridad contra incendios, coincidiendo directamente con la información relevante que debe contener el plan."
+    },
+    "pagina_021_img_01.jpeg": {
+      "archivo": "pagina_021_img_01.jpeg",
+      "contenido": "Plan de Control de Daños",
+      "tipo_estructura": "lista",
+      "indice_subseccion": 1,
+      "titulo_subseccion": "Compartimentado estanco",
+      "justificacion": "La abertura en el casco puede provocar entrada de agua y afectar la estabilidad del buque; el compartimentado estanco limita su propagación hacia otros espacios."
+    },
+    "pagina_022_img_01.jpeg": {
+      "archivo": "pagina_022_img_01.jpeg",
+      "contenido": "Plan de Control de Daños",
+      "tipo_estructura": "lista",
+      "indice_subseccion": 4,
+      "titulo_subseccion": "Equipos y materiales de control de daños",
+      "justificacion": "La infografía aborda de forma general la preparación y respuesta ante emergencias y el control de daños a bordo, por lo que se relaciona mejor con los equipos, materiales y medios de comunicación empleados durante estas actuaciones."
+    },
+    "pagina_023_img_01.jpeg": {
+      "archivo": "pagina_023_img_01.jpeg",
+      "contenido": "Organización de emergencias a bordo",
+      "tipo_estructura": "encabezados",
+      "indice_subseccion": 1,
+      "titulo_subseccion": "Equipo de Emergencia",
+      "justificacion": "La presencia de numerosos pasajeros desplazándose por el buque con chalecos salvavidas representa una situación de emergencia y una posible preparación para abandonar la nave, escenario mencionado en las funciones del Equipo de Emergencia."
+    },
+    "pagina_024_img_01.jpeg": {
+      "archivo": "pagina_024_img_01.jpeg",
+      "contenido": "Organización de emergencias a bordo",
+      "tipo_estructura": "encabezados",
+      "indice_subseccion": 1,
+      "titulo_subseccion": "Equipo de Emergencia",
+      "justificacion": "La imagen muestra a un equipo equipado con protección y aparatos respiratorios combatiendo directamente un incendio con una manguera, función propia del Equipo de Emergencia."
+    },
+    "pagina_025_img_01.jpeg": {
+      "archivo": "pagina_025_img_01.jpeg",
+      "contenido": "Organización de emergencias a bordo",
+      "tipo_estructura": "encabezados",
+      "indice_subseccion": 1,
+      "titulo_subseccion": "Equipo de Emergencia",
+      "justificacion": "La imagen muestra una reunión organizada junto a una estación de emergencia del buque, lo que se relaciona directamente con la concentración de personal en la Estación General de Emergencia descrita para este equipo."
+    },
+    "pagina_026_img_01.jpeg": {
+      "archivo": "pagina_026_img_01.jpeg",
+      "contenido": "Organización de emergencias a bordo",
+      "tipo_estructura": "encabezados",
+      "indice_subseccion": 4,
+      "titulo_subseccion": "Equipo de Primeros Auxilios",
+      "justificacion": "La imagen muestra a personal de emergencia prestando primeros auxilios a una persona con guantes y equipamiento sanitario, lo que corresponde directamente al Equipo de Primeros Auxilios."
+    },
+    "pagina_027_img_01.jpeg": {
+      "archivo": "pagina_027_img_01.jpeg",
+      "contenido": "Cuadro de Obligaciones o Muster List",
+      "tipo_estructura": "encabezados",
+      "indice_subseccion": 3,
+      "titulo_subseccion": "Ubicación",
+      "justificacion": "La imagen muestra la ubicación de las estaciones de reunión de pasajeros en distintas cubiertas del buque, lo que se relaciona directamente con la subsección sobre los lugares donde debe exponerse y consultarse el Cuadro de Obligaciones."
+    },
+    "pagina_029_img_02.jpeg": {
+      "archivo": "pagina_029_img_02.jpeg",
+      "contenido": "Alarmas, señales e instrucciones de emergencia",
+      "tipo_estructura": "encabezados",
+      "indice_subseccion": 1,
+      "titulo_subseccion": "Importancia del reconocimiento de las alarmas",
+      "justificacion": "La secuencia de siete señales cortas y una larga representa una alarma de emergencia específica, por lo que se relaciona directamente con la necesidad de reconocer correctamente las distintas alarmas a bordo."
+    },
+    "pagina_032_img_01.jpeg": {
+      "archivo": "pagina_032_img_01.jpeg",
+      "contenido": "Comportamiento humano en situaciones de emergencia",
+      "tipo_estructura": "lista",
+      "indice_subseccion": 0,
+      "titulo_subseccion": "Normalidad",
+      "justificacion": "El diagrama presenta la secuencia completa del comportamiento colectivo y comienza con la etapa de normalidad, por lo que funciona mejor como introducción visual al proceso que luego evoluciona hacia alerta, incertidumbre, agitación y pánico."
+    },
+    "pagina_033_img_01.jpeg": {
+      "archivo": "pagina_033_img_01.jpeg",
+      "contenido": "Organización y desplazamiento seguro de pasajeros",
+      "tipo_estructura": "lista",
+      "indice_subseccion": 2,
+      "titulo_subseccion": "Ejecución",
+      "justificacion": "La imagen muestra al personal ejecutando una acción de emergencia concreta: asistir y guiar a una pasajera en un entorno con humo."
+    },
+    "pagina_035_img_01.jpeg": {
+      "archivo": "pagina_035_img_01.jpeg",
+      "contenido": "Técnicas de control y liderazgo de grupos",
+      "tipo_estructura": "lista",
+      "indice_subseccion": 0,
+      "titulo_subseccion": "Liderazgo visible",
+      "justificacion": "El personal supervisa visiblemente al grupo desde la estación de reunión y porta chalecos de alta visibilidad, elementos distintivos que refuerzan su autoridad y presencia durante la emergencia."
+    },
+    "pagina_036_img_01.jpeg": {
+      "archivo": "pagina_036_img_01.jpeg",
+      "contenido": "Técnicas de comunicación efectiva",
+      "tipo_estructura": "encabezados",
+      "indice_subseccion": 2,
+      "titulo_subseccion": "Presencia y autoridad",
+      "justificacion": "La imagen muestra a un tripulante visible por su casco y chaleco de alta visibilidad que guía firmemente a los pasajeros mediante señales corporales, lo que representa presencia, autoridad y dirección durante una emergencia."
+    },
+    "pagina_037_img_01.jpeg": {
+      "archivo": "pagina_037_img_01.jpeg",
+      "contenido": "Equipos para atender pasajeros durante emergencias",
+      "tipo_estructura": "encabezados",
+      "indice_subseccion": 0,
+      "titulo_subseccion": "Equipos principales",
+      "justificacion": "La imagen muestra directamente un chaleco salvavidas con correas y hebillas de ajuste, uno de los dispositivos descritos explícitamente en la subsección «Equipos principales»."
+    },
+    "pagina_038_img_01.jpeg": {
+      "archivo": "pagina_038_img_01.jpeg",
+      "contenido": "Equipos para atender pasajeros durante emergencias",
+      "tipo_estructura": "encabezados",
+      "indice_subseccion": 0,
+      "titulo_subseccion": "Equipos principales",
+      "justificacion": "La imagen muestra a una integrante de la tripulación utilizando una radio portátil en el puente, uno de los equipos de comunicación descritos explícitamente en esta subsección."
+    },
+    "pagina_039_img_01.jpeg": {
+      "archivo": "pagina_039_img_01.jpeg",
+      "contenido": "Equipos para atender pasajeros durante emergencias",
+      "tipo_estructura": "encabezados",
+      "indice_subseccion": 0,
+      "titulo_subseccion": "Equipos principales",
+      "justificacion": "La imagen muestra el uso coordinado de una silla de evacuación para trasladar a una pasajera por una escalera, coincidiendo directamente con los equipos para personas con movilidad reducida descritos en esta subsección."
+    },
+    "pagina_042_img_01.jpeg": {
+      "archivo": "pagina_042_img_01.jpeg",
+      "contenido": "Mantenimiento de las rutas de escape libres de obstrucciones",
+      "tipo_estructura": "encabezados",
+      "indice_subseccion": 1,
+      "titulo_subseccion": "Actuación durante una emergencia",
+      "justificacion": "La imagen muestra a un tripulante orientando el recorrido por una vía de evacuación señalizada, lo que se relaciona directamente con la actuación de la tripulación durante una emergencia y la identificación clara de las rutas de escape."
+    },
+    "pagina_043_img_01.jpeg": {
+      "archivo": "pagina_043_img_01.jpeg",
+      "contenido": "Mantenimiento de las rutas de escape libres de obstrucciones",
+      "tipo_estructura": "encabezados",
+      "indice_subseccion": 1,
+      "titulo_subseccion": "Actuación durante una emergencia",
+      "justificacion": "El plano muestra las rutas de evacuación principal y alternativa, las salidas, escaleras y estaciones de reunión, elementos directamente relacionados con la orientación y la redirección de pasajeros durante una emergencia."
+    },
+    "pagina_045_img_01.jpeg": {
+      "archivo": "pagina_045_img_01.jpeg",
+      "contenido": "Factores que influyen en el estrés y el pánico",
+      "tipo_estructura": "encabezados",
+      "indice_subseccion": 3,
+      "titulo_subseccion": "Apoyo a personas con ansiedad o desorientación",
+      "justificacion": "La expresión intensa de miedo o pánico es un signo evidente de ansiedad o alteración emocional, por lo que la imagen corresponde al apoyo que debe brindar la tripulación a personas en ese estado."
+    },
+    "pagina_046_img_01.jpeg": {
+      "archivo": "pagina_046_img_01.jpeg",
+      "contenido": "Factores que influyen en el estrés y el pánico",
+      "tipo_estructura": "encabezados",
+      "indice_subseccion": 2,
+      "titulo_subseccion": "Comunicación y actitud profesional",
+      "justificacion": "La imagen muestra a una integrante del equipo comunicando indicaciones a los pasajeros durante una situación de emergencia, lo que refleja comunicación clara, liderazgo y una actitud profesional."
+    },
+    "pagina_047_img_01.jpeg": {
+      "archivo": "pagina_047_img_01.jpeg",
+      "contenido": "Uso de la lista de pasajeros para conteos",
+      "tipo_estructura": "encabezados",
+      "indice_subseccion": 2,
+      "titulo_subseccion": "Ejercicios y simulacros",
+      "justificacion": "La tripulante está mostrando una ficha de instrucciones y procedimientos de emergencia, lo que se relaciona mejor con la capacitación y práctica regular de protocolos mediante ejercicios y simulacros."
+    },
+    "pagina_048_img_01.jpeg": {
+      "archivo": "pagina_048_img_01.jpeg",
+      "contenido": "Uso de la lista de pasajeros para conteos",
+      "tipo_estructura": "encabezados",
+      "indice_subseccion": 0,
+      "titulo_subseccion": "Procedimiento de conteo",
+      "justificacion": "La imagen muestra a los pasajeros agrupados y a una persona verificando su presencia mediante una lista de control, acciones centrales del procedimiento de conteo en la estación de reunión."
+    },
+    "pagina_049_img_01.jpeg": {
+      "archivo": "pagina_049_img_01.jpeg",
+      "contenido": "Uso de dispositivos de salvamento para pasajeros",
+      "tipo_estructura": "encabezados",
+      "indice_subseccion": 0,
+      "titulo_subseccion": "Dispositivos descritos",
+      "justificacion": "La imagen muestra claramente varios botes salvavidas instalados en los costados de buques de pasajeros, uno de los dispositivos de salvamento enumerados en esta subsección."
+    },
+    "pagina_049_img_02.jpeg": {
+      "archivo": "pagina_049_img_02.jpeg",
+      "contenido": "Uso de dispositivos de salvamento para pasajeros",
+      "tipo_estructura": "encabezados",
+      "indice_subseccion": 1,
+      "titulo_subseccion": "Uso del chaleco salvavidas",
+      "justificacion": "La imagen muestra a una tripulante ayudando directamente a una pasajera a ajustar las correas de un chaleco salvavidas, acción descrita específicamente en la subsección sobre su correcta colocación y comprobación."
+    },
+    "pagina_051_img_01.jpeg": {
+      "archivo": "pagina_051_img_01.jpeg",
+      "contenido": "Asistencia a niños, adultos mayores y personas con movilidad reducida",
+      "tipo_estructura": "encabezados",
+      "indice_subseccion": 1,
+      "titulo_subseccion": "Orientaciones de asistencia",
+      "justificacion": "La imagen muestra asistencia coordinada de varios tripulantes a una adulta mayor con movilidad reducida, además de la colocación de un chaleco salvavidas, aspectos tratados directamente en las orientaciones de asistencia."
+    },
+    "pagina_051_img_02.jpeg": {
+      "archivo": "pagina_051_img_02.jpeg",
+      "contenido": "Asistencia a niños, adultos mayores y personas con movilidad reducida",
+      "tipo_estructura": "encabezados",
+      "indice_subseccion": 1,
+      "titulo_subseccion": "Orientaciones de asistencia",
+      "justificacion": "La imagen muestra asistencia directa de una tripulante a una madre con un bebé durante una evacuación, incluido el uso de chaleco salvavidas y el acompañamiento por una ruta de salida, lo que corresponde a las orientaciones de asistencia a niños y al apoyo durante el acceso a los dispositivos de salvamento."
+    },
+    "pagina_052_img_01.jpeg": {
+      "archivo": "pagina_052_img_01.jpeg",
+      "contenido": "Embarque y desembarque seguro de pasajeros",
+      "tipo_estructura": "encabezados",
+      "indice_subseccion": 2,
+      "titulo_subseccion": "Funciones de la tripulación",
+      "justificacion": "La imagen muestra a un miembro del personal supervisando y orientando el desembarque por la pasarela, incluida la asistencia a personas mayores, lo que corresponde directamente a las funciones de la tripulación."
+    },
+    "pagina_053_img_01.jpeg": {
+      "archivo": "pagina_053_img_01.jpeg",
+      "contenido": "Embarque y desembarque seguro de pasajeros",
+      "tipo_estructura": "encabezados",
+      "indice_subseccion": 2,
+      "titulo_subseccion": "Funciones de la tripulación",
+      "justificacion": "La imagen muestra a personal visible supervisando el embarque y controlando el flujo de pasajeros por la pasarela, actividades propias de las funciones de la tripulación."
+    }
+  },
+  "sin_estructura": [
+    {
+      "archivo": "pagina_040_img_01.jpeg",
+      "contenido": "Gestión de pasajeros en pasillos, escaleras y vías de escape"
+    },
+    {
+      "archivo": "pagina_041_img_01.jpeg",
+      "contenido": "Gestión de pasajeros en pasillos, escaleras y vías de escape"
+    },
+    {
+      "archivo": "pagina_044_img_01.jpeg",
+      "contenido": "Procedimientos efectivos de reunión"
+    }
+  ]
+}
