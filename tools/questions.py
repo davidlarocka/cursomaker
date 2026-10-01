@@ -1,3 +1,6 @@
+import hashlib
+from html import escape
+
 from tools.courses import _moodle_request
 
 
@@ -57,3 +60,17 @@ def crear_pregunta(categoryid, name, questiontext, answers):
             "answers": answers,
         },
     )
+
+
+def crear_pregunta_desde_modelo(categoryid, courseid, id_logico, pregunta):
+    """Conversión compartida por quizzes y cargas al banco de preguntas."""
+    firma = hashlib.sha256((id_logico + pregunta.model_dump_json()).encode()).hexdigest()[:16]
+    resultado = crear_pregunta(
+        categoryid, f"CM-{courseid}-{firma}",
+        f"<p>{escape(pregunta.enunciado)}</p>",
+        [{"text": escape(a.texto), "fraction": 1 if a.correcta else 0}
+         for a in pregunta.alternativas],
+    )
+    if not isinstance(resultado, dict) or not resultado.get("questionid"):
+        raise RuntimeError("Moodle no confirmó la creación de la pregunta.")
+    return resultado

@@ -102,7 +102,7 @@ def moodle(monkeypatch):
     monkeypatch.setattr(courses, "obtener_pagina", obtener)
     monkeypatch.setattr(assessment_executor, "crear_actividad_h5p", h5p)
     monkeypatch.setattr(assessment_executor, "crear_categoria", categoria)
-    monkeypatch.setattr(assessment_executor, "crear_pregunta", pregunta)
+    monkeypatch.setattr("tools.questions.crear_pregunta", pregunta)
     monkeypatch.setattr(assessment_executor, "agregar_pregunta", slot)
     return estado
 

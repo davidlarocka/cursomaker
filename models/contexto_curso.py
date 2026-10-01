@@ -22,3 +22,6 @@ class ContextoCurso(BaseModel):
     moodle_curso_id: Optional[int] = None
     moodle_report_path: Optional[Path] = None
     moodle_resultado: Optional[Dict[str, Any]] = None
+    banco_examen_blueprint_path: Optional[Path] = None
+    banco_examen_report_path: Optional[Path] = None
+    banco_examen_resultado: Optional[Dict[str, Any]] = None

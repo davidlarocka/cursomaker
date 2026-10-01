@@ -11,7 +11,7 @@ from services.h5p_pipeline import crear_actividad_h5p
 from services.h5p_generator import generar_drag_question, generar_single_choice_set, generar_fill_in_the_blanks
 from services.blueprint_store import guardar_json
 from tools import courses
-from tools.questions import crear_categoria, crear_pregunta
+from tools.questions import crear_categoria, crear_pregunta_desde_modelo
 from tools.quizzes import agregar_pregunta
 
 
@@ -83,11 +83,8 @@ def completar_quiz(actividad, courseid, registro, guardar):
         clave = str(pregunta.numero)
         item = preguntas.setdefault(clave, {})
         if not item.get("questionid"):
-            firma = hashlib.sha256((actividad.id_logico + pregunta.model_dump_json()).encode()).hexdigest()[:16]
-            resultado = crear_pregunta(
-                registro["categoryid"], f"CM-{courseid}-{firma}",
-                f"<p>{escape(pregunta.enunciado)}</p>",
-                [{"text": escape(a.texto), "fraction": 1 if a.correcta else 0} for a in pregunta.alternativas],
+            resultado = crear_pregunta_desde_modelo(
+                registro["categoryid"], courseid, actividad.id_logico, pregunta,
             )
             item["questionid"] = resultado["questionid"]
             guardar()

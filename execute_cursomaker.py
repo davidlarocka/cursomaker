@@ -10,14 +10,17 @@ def main():
         help="Directorio del curso (ej: documents/omi110)",
     )
     parser.add_argument(
-        "--etapa", choices=("todo", "contenido", "assessment", "imagenes", "moodle"), default="todo",
+        "--etapa", choices=("todo", "contenido", "assessment", "imagenes", "moodle", "banco-examen"), default="todo",
         help="Etapas a ejecutar (por defecto: pipeline completo, incluida ejecución Moodle).",
     )
-    parser.add_argument("--dry-run", action="store_true", help="Valida los artefactos Moodle sin modificar el servidor.")
+    parser.add_argument("--dry-run", action="store_true", help="Valida Moodle o banco-examen sin modificar el servidor.")
+    parser.add_argument("--examen", help="PDF del examen, con ruta relativa al directorio del curso o absoluta.")
+    parser.add_argument("--course-id", type=int, help="Curso Moodle de destino para banco-examen.")
     args = parser.parse_args()
 
     try:
-        contexto = ejecutar_cursomaker(args.curso, etapa=args.etapa, dry_run=args.dry_run)
+        contexto = ejecutar_cursomaker(args.curso, etapa=args.etapa, dry_run=args.dry_run,
+                                      examen=args.examen, courseid=args.course_id)
     except (OSError, ValueError, RuntimeError) as error:
         parser.exit(1, f"Error: {error}\n")
 
@@ -29,6 +32,15 @@ def main():
         print(f"Content Blueprint: {contexto.content_blueprint_path}")
     if contexto.assessment_blueprint_path:
         print(f"Assessment Blueprint: {contexto.assessment_blueprint_path}")
+    if contexto.banco_examen_resultado:
+        banco = contexto.banco_examen_resultado
+        print(f"Banco de preguntas: {banco['estado']}")
+        print(f"Curso Moodle ID: {banco['courseid']}")
+        print(f"Principales: {banco['principales']} | Reserva: {banco['reserva']}")
+        print(f"Examen Blueprint: {contexto.banco_examen_blueprint_path}")
+        if contexto.banco_examen_report_path:
+            print(f"Nuevas: {banco['creadas']} | Ya registradas: {banco['omitidas']}")
+            print(f"Resumen: {contexto.banco_examen_report_path}")
     if contexto.image_analysis_path:
         print(f"Análisis visual: {contexto.image_analysis_path}")
         print(f"Mapeo visual: {contexto.image_mapping_path}")
