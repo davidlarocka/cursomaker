@@ -1,2 +1,12 @@
 .env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+documents/
+assets/
+output/.env
 .venv/
