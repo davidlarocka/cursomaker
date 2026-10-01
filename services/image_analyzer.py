@@ -8,11 +8,6 @@ from openai import OpenAI
 from models.blueprint import AnalisisImagen
 
 
-load_dotenv()
-
-client = OpenAI(
-    api_key=os.getenv("OPENAI_API_KEY")
-)
 
 
 def analizar_imagen(
@@ -51,6 +46,12 @@ def analizar_imagen(
         f"👁️ Analizando imagen "
         f"{ruta.name} de la página {numero_pagina}..."
     )
+
+    load_dotenv(Path(__file__).resolve().parent.parent / ".env")
+    api_key = os.getenv("OPENAI_API_KEY")
+    if not api_key:
+        raise ValueError("Falta OPENAI_API_KEY en el entorno o en el archivo .env.")
+    client = OpenAI(api_key=api_key)
 
     response = client.responses.parse(
         model="gpt-5.6",
@@ -94,4 +95,6 @@ def analizar_imagen(
         text_format=AnalisisImagen,
     )
 
+    if response.output_parsed is None:
+        raise RuntimeError("El modelo no devolvió un análisis visual válido.")
     return response.output_parsed

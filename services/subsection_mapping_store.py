@@ -1,5 +1,6 @@
 import json
 from pathlib import Path
+from services.blueprint_store import guardar_json
 
 
 def cargar_checkpoint(ruta):
@@ -21,15 +22,4 @@ def guardar_checkpoint(
     ruta,
     datos,
 ):
-    ruta = Path(ruta)
-
-    with ruta.open(
-        "w",
-        encoding="utf-8",
-    ) as archivo:
-        json.dump(
-            datos,
-            archivo,
-            ensure_ascii=False,
-            indent=2,
-        )
+    guardar_json(Path(ruta), datos)

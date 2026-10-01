@@ -1,5 +1,6 @@
 import json
 from pathlib import Path
+from services.blueprint_store import guardar_json
 
 
 def cargar_analisis_imagenes(ruta):
@@ -21,15 +22,4 @@ def guardar_analisis_imagenes(
     ruta,
     estado,
 ):
-    ruta = Path(ruta)
-
-    with ruta.open(
-        "w",
-        encoding="utf-8",
-    ) as archivo:
-        json.dump(
-            estado,
-            archivo,
-            ensure_ascii=False,
-            indent=2,
-        )
+    guardar_json(Path(ruta), estado)

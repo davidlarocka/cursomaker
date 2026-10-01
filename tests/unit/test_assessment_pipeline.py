@@ -71,8 +71,13 @@ def test_default_ejecuta_ambos_en_orden(curso, monkeypatch):
 
     monkeypatch.setattr(orchestrator, "generar_content_blueprint", lambda c: ejecutar("blueprint.json", c))
     monkeypatch.setattr(orchestrator, "generar_assessment_desde_actividades", lambda c: ejecutar("assessment_blueprint.json", c))
+    def imagenes(contexto):
+        etapas.append("imagenes")
+        return contexto
+
+    monkeypatch.setattr(orchestrator, "ejecutar_pipeline_imagenes", imagenes)
     resultado = orchestrator.ejecutar_cursomaker(curso)
-    assert etapas == ["blueprint.json", "assessment_blueprint.json"]
+    assert etapas == ["blueprint.json", "assessment_blueprint.json", "imagenes"]
     assert resultado.content_blueprint_path is not None
     assert resultado.assessment_blueprint_path is not None
 

@@ -1,4 +1,5 @@
 import os
+from pathlib import Path
 
 from dotenv import load_dotenv
 from openai import OpenAI
@@ -8,11 +9,6 @@ from models.render_blueprint import (
 )
 
 
-load_dotenv()
-
-client = OpenAI(
-    api_key=os.getenv("OPENAI_API_KEY")
-)
 
 
 def asignar_imagen_subseccion(
@@ -44,6 +40,12 @@ def asignar_imagen_subseccion(
         opciones
     )
 
+    load_dotenv(Path(__file__).resolve().parent.parent / ".env")
+    api_key = os.getenv("OPENAI_API_KEY")
+    if not api_key:
+        raise ValueError("Falta OPENAI_API_KEY en el entorno o en el archivo .env.")
+    client = OpenAI(api_key=api_key)
+
     response = client.responses.parse(
         model="gpt-5.6",
         input=[
@@ -74,6 +76,8 @@ def asignar_imagen_subseccion(
     )
 
     resultado = response.output_parsed
+    if resultado is None:
+        raise RuntimeError("El modelo no devolvió una asignación visual válida.")
 
     if not (
         0

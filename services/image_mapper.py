@@ -1,4 +1,5 @@
 import os
+from pathlib import Path
 
 from dotenv import load_dotenv
 from openai import OpenAI
@@ -6,11 +7,6 @@ from openai import OpenAI
 from models.blueprint import ResolucionDestinoImagen
 
 
-load_dotenv()
-
-client = OpenAI(
-    api_key=os.getenv("OPENAI_API_KEY")
-)
 
 
 def resolver_destino_imagen(
@@ -39,6 +35,12 @@ def resolver_destino_imagen(
         )
 
     texto_destinos = "\n\n".join(opciones)
+
+    load_dotenv(Path(__file__).resolve().parent.parent / ".env")
+    api_key = os.getenv("OPENAI_API_KEY")
+    if not api_key:
+        raise ValueError("Falta OPENAI_API_KEY en el entorno o en el archivo .env.")
+    client = OpenAI(api_key=api_key)
 
     response = client.responses.parse(
         model="gpt-5.6",
@@ -83,6 +85,8 @@ def resolver_destino_imagen(
     )
 
     resultado = response.output_parsed
+    if resultado is None:
+        raise RuntimeError("El modelo no devolvió una asignación visual válida.")
 
     if not (
         0
