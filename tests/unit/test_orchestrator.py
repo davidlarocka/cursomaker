@@ -21,11 +21,11 @@ def test_prepara_cursos_sin_mezclar_artefactos(tmp_path, monkeypatch):
     primero = preparar_documentos(tmp_path, "omi110")
     segundo = preparar_documentos(tmp_path, "omi141")
     monkeypatch.chdir(primero)
-    contexto = orchestrator.ejecutar_cursomaker(primero)
+    contexto = orchestrator.preparar_curso(primero)
     artefacto = contexto.output_dir / "existente.json"
     artefacto.write_text("{}", encoding="utf-8")
-    repetido = orchestrator.ejecutar_cursomaker(primero)
-    otro = orchestrator.ejecutar_cursomaker(segundo)
+    repetido = orchestrator.preparar_curso(primero)
+    otro = orchestrator.preparar_curso(segundo)
     assert repetido == contexto
     assert contexto.assets_dir == tmp_path / "assets" / "omi110"
     assert contexto.assets_dir.is_dir()

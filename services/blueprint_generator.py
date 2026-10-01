@@ -1,16 +1,12 @@
 import os
+from pathlib import Path
 
 from dotenv import load_dotenv
 from openai import OpenAI
 
 from models.blueprint import CursoBlueprint
-
-
-load_dotenv()
-
-client = OpenAI(
-    api_key=os.getenv("OPENAI_API_KEY")
-)
+from models.contexto_curso import ContextoCurso
+from services.documents import extraer_texto_pdf, construir_texto_documento
 
 def generar_blueprint(texto_documento):
     """
@@ -19,6 +15,12 @@ def generar_blueprint(texto_documento):
     """
 
     print("🧠 Analizando documento y generando blueprint...")
+
+    load_dotenv(Path(__file__).resolve().parent.parent / ".env")
+    api_key = os.getenv("OPENAI_API_KEY")
+    if not api_key:
+        raise ValueError("Falta OPENAI_API_KEY en el entorno o en el archivo .env.")
+    client = OpenAI(api_key=api_key)
 
     response = client.responses.parse(
         model="gpt-5.6",
@@ -56,3 +58,32 @@ def generar_blueprint(texto_documento):
         )
 
     return response.output_parsed
+
+
+def generar_content_blueprint(contexto: ContextoCurso) -> Path:
+    """Extrae el manual, genera el blueprint y guarda un resultado completo."""
+    documento = extraer_texto_pdf(contexto.config.manual)
+    texto = construir_texto_documento(documento)
+    if not texto.strip():
+        raise ValueError("El manual no contiene texto extraíble para generar el blueprint.")
+
+    blueprint = generar_blueprint(texto)
+    if not blueprint.secciones:
+        raise ValueError("El Content Blueprint generado no contiene secciones.")
+
+    identidad = {
+        "nombre": contexto.config.nombre,
+        "shortname": contexto.config.shortname,
+    }
+    if contexto.config.descripcion:
+        identidad["descripcion"] = contexto.config.descripcion
+    blueprint = blueprint.model_copy(update=identidad)
+
+    salida = contexto.output_dir / "blueprint.json"
+    temporal = salida.with_suffix(".json.tmp")
+    try:
+        temporal.write_text(blueprint.model_dump_json(indent=2), encoding="utf-8")
+        temporal.replace(salida)
+    finally:
+        temporal.unlink(missing_ok=True)
+    return salida

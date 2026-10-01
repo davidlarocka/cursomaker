@@ -1,4 +1,5 @@
 from pathlib import Path
+from typing import Optional
 
 from pydantic import BaseModel
 
@@ -12,3 +13,4 @@ class ContextoCurso(BaseModel):
     directorio: Path
     assets_dir: Path
     output_dir: Path
+    content_blueprint_path: Optional[Path] = None

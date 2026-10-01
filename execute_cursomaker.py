@@ -13,14 +13,15 @@ def main():
 
     try:
         contexto = ejecutar_cursomaker(args.curso)
-    except (OSError, ValueError) as error:
+    except (OSError, ValueError, RuntimeError) as error:
         parser.exit(1, f"Error: {error}\n")
 
-    print(f"Preparación completada: {contexto.config.nombre}")
+    print(f"Content Blueprint completado: {contexto.config.nombre}")
     print(f"Shortname: {contexto.config.shortname}")
     print(f"Assets: {contexto.assets_dir}")
     print(f"Output: {contexto.output_dir}")
-    print("Generación de blueprints y ejecución Moodle pendientes de integración.")
+    print(f"Content Blueprint: {contexto.content_blueprint_path}")
+    print("Assessment, imágenes y ejecución Moodle pendientes de integración.")
 
 
 if __name__ == "__main__":
