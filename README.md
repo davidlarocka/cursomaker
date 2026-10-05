@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="branding/cursomaker-logo-primary.png" alt="CursoMaker" width="760">
+</p>
+
 # CursoMaker
 
 CursoMaker transforma los documentos de un curso en artefactos revisables y,
