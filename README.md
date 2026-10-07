@@ -160,7 +160,7 @@ Usar el entorno virtual del proyecto:
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip
-python -m pip install openai 'pydantic>=2' python-dotenv pymupdf beautifulsoup4 requests
+python -m pip install openai 'pydantic>=2' python-dotenv pymupdf beautifulsoup4 requests weasyprint
 ```
 
 Las dependencias usadas por el código son Pydantic 2, OpenAI, python-dotenv,

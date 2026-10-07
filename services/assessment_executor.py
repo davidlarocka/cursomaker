@@ -1,7 +1,7 @@
 """Ejecutor de actividades que reutiliza las herramientas Moodle existentes."""
 import hashlib
 import json
-from html import escape
+from html import escape, unescape
 from pathlib import Path
 from typing import Any, Dict, Optional
 
@@ -133,7 +133,7 @@ def ejecutar_assessment(
             registro = estado["actividades"].get(actividad.id_logico)
             tipo = TIPOS_MOODLE[actividad.tipo]
             existentes = [a for s in courses.obtener_secciones(courseid) if s["numero"] == section
-                          for a in s["actividades"] if a["nombre"] == actividad.titulo and a["tipo"] == tipo]
+                          for a in s["actividades"] if unescape(a["nombre"]) == actividad.titulo and a["tipo"] == tipo]
             if len(existentes) > 1:
                 raise RuntimeError(f"Actividad Moodle duplicada: {actividad.titulo}")
             if registro and registro.get("coursemodule"):
@@ -148,7 +148,8 @@ def ejecutar_assessment(
                 faltantes = [r for r in actividad.recursos if r.requerido and not r.disponible]
                 h5p_tipo = actividad.h5p_tipo_ejecucion or actividad.h5p_tipo
                 if faltantes or h5p_tipo == "image_hotspots":
-                    resultados.append({"id_logico": actividad.id_logico, "estado": "pendiente",
+                    resultados.append({"id_logico": actividad.id_logico, "titulo": actividad.titulo,
+                                       "modulo": modulo.numero, "estado": "pendiente",
                                        "razon": "recurso_faltante" if faltantes else "empaquetador_no_disponible"})
                     continue
             if registro is None or not registro.get("coursemodule"):
@@ -157,7 +158,8 @@ def ejecutar_assessment(
                 elif actividad.tipo == "discusion":
                     resultado = courses.crear_foro(courseid, section, actividad.titulo, renderizar_actividad_discusion(actividad))
                 elif actividad.tipo == "quiz":
-                    resultado = courses.crear_quiz(courseid, section, actividad.titulo, escape(actividad.instrucciones or ""))
+                    descripcion = " ".join(filter(None, [actividad.descripcion, actividad.instrucciones]))
+                    resultado = courses.crear_quiz(courseid, section, actividad.titulo, escape(descripcion))
                 else:
                     carpeta = Path(output_dir) / hashlib.sha256(actividad.id_logico.encode()).hexdigest()[:16]
                     resultado = crear_actividad_h5p(actividad, courseid, section, output_dir=str(carpeta))
@@ -174,7 +176,7 @@ def ejecutar_assessment(
                 completar_quiz(actividad, courseid, registro, guardar)
             presentes = [a for s in courses.obtener_secciones(courseid) if s["numero"] == section
                          for a in s["actividades"] if a["id"] == registro["coursemodule"]
-                         and a["nombre"] == actividad.titulo and a["tipo"] == tipo]
+                         and unescape(a["nombre"]) == actividad.titulo and a["tipo"] == tipo]
             if len(presentes) != 1:
                 raise RuntimeError(f"No pudo verificarse la actividad en Moodle: {actividad.titulo}")
             registro["estado"] = "verificada"

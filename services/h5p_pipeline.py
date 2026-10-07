@@ -1,4 +1,5 @@
 from pathlib import Path
+from html import escape
 from typing import Any, Dict
 
 from services.h5p_generator import (
@@ -121,6 +122,8 @@ def crear_actividad_h5p(
             "section": section,
             "contentid": contentid,
             "name": titulo,
+            "intro": "".join(f"<p>{escape(texto.strip())}</p>" for texto in
+                             (getattr(actividad, "descripcion", None), getattr(actividad, "instrucciones", None)) if texto and texto.strip()),
         },
     )
 

@@ -122,6 +122,7 @@ def cargar_artefactos(contexto):
                     raise ValueError(f"Referencia de imagen inválida: {imagen.archivo}")
                 if str(contexto.assets_dir) in html:
                     raise ValueError("El HTML contiene una ruta local.")
+        if seccion.contenidos:
             total += 1
     contexto.content_blueprint_path = rutas["blueprint.json"]
     contexto.assessment_blueprint_path = rutas["assessment_blueprint.json"]

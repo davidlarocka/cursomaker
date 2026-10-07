@@ -12,7 +12,7 @@ from tools import courses, questions
 
 
 def extraer_banco_examen(ruta):
-    """Formato admitido: P1., a)..d), Correcta: A y Banco de reserva opcional."""
+    """Admite P1. o 1., cuatro alternativas y una clave explícita por pregunta."""
     documento = extraer_texto_pdf(ruta)
     lineas = []
     paginas = []
@@ -22,10 +22,10 @@ def extraer_banco_examen(ruta):
             if linea:
                 lineas.append(linea)
                 paginas.append(pagina["numero"])
-    inicios = [(i, re.match(r"^P(\d+)\.\s*(.*)$", linea))
-               for i, linea in enumerate(lineas) if re.match(r"^P\d+\.", linea)]
+    inicios = [(i, re.match(r"^(?:P\s*)?(\d+)\.\s*(.*)$", linea, re.I))
+               for i, linea in enumerate(lineas) if re.match(r"^(?:P\s*)?\d+\.\s+\S", linea, re.I)]
     if not inicios:
-        raise ValueError("No se encontraron preguntas P1., P2., etc. El PDF debe contener texto extraíble.")
+        raise ValueError("No se encontraron preguntas 1., 2. o P1., P2. El PDF debe contener texto extraíble.")
     reservas = [i for i, linea in enumerate(lineas) if re.search(r"banco de reserva", linea, re.I)]
     if len(reservas) > 1:
         raise ValueError("El documento contiene más de un encabezado de banco de reserva.")
@@ -34,11 +34,11 @@ def extraer_banco_examen(ruta):
     for posicion, (inicio, match) in enumerate(inicios):
         fin = inicios[posicion + 1][0] if posicion + 1 < len(inicios) else len(lineas)
         bloque = lineas[inicio:fin]
-        claves = [(j, re.fullmatch(r"Correcta:\s*([A-D])\s*", linea, re.I))
-                  for j, linea in enumerate(bloque) if re.match(r"^Correcta:", linea, re.I)]
+        claves = [(j, re.fullmatch(r"(?:Respuesta\s+correcta|Correcta):\s*([A-D])\s*", linea, re.I))
+                  for j, linea in enumerate(bloque) if re.match(r"^(?:Respuesta\s+correcta|Correcta):", linea, re.I)]
         numero = int(match[1])
         if len(claves) != 1 or claves[0][1] is None:
-            raise ValueError(f"P{numero}: se requiere una clave explícita Correcta: A/B/C/D.")
+            raise ValueError(f"P{numero}: se requiere una clave explícita Respuesta correcta: A/B/C/D.")
         indice_clave, clave = claves[0]
         opciones = [(j, re.match(r"^([a-d])\)\s*(.*)$", linea, re.I))
                     for j, linea in enumerate(bloque[:indice_clave])

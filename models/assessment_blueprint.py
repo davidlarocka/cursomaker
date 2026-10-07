@@ -58,7 +58,9 @@ class ActividadBase(BaseModel):
         ge=1
     )
 
-    titulo: str
+    titulo: str = Field(description="Nombre literal de la actividad tal como aparece en el documento fuente; no usar el título del caso o escenario.")
+
+    descripcion: Optional[str] = Field(default=None, description="Título y contexto del caso práctico, si el documento los presenta por separado del nombre de la actividad.")
 
     paginas_fuente: List[int] = Field(
         default_factory=list

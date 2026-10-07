@@ -449,11 +449,17 @@ def generar_fill_in_the_blanks(
             "consecutivamente desde 1."
         )
 
-    marcadores = re.findall(r"_+", texto)
+    marcadores_numerados = [int(numero) for numero in re.findall(r"\[(\d+)\]", texto)]
+    marcadores_guiones = re.findall(r"_+", texto)
+    if marcadores_numerados and marcadores_guiones:
+        raise ValueError(f"La actividad {actividad.id_logico} mezcla marcadores [n] y guiones bajos.")
+    if marcadores_numerados and marcadores_numerados != list(range(1, len(actividad.espacios) + 1)):
+        raise ValueError(f"La actividad {actividad.id_logico} debe usar [1] a [{len(actividad.espacios)}] en orden.")
+    marcadores = marcadores_numerados or marcadores_guiones
 
     if len(marcadores) != len(actividad.espacios):
         raise ValueError(
-            "La cantidad de espacios del texto "
+            f"La actividad {actividad.id_logico}: la cantidad de espacios del texto "
             f"({len(marcadores)}) no coincide con "
             "la cantidad de respuestas definidas "
             f"({len(actividad.espacios)})."
@@ -479,7 +485,7 @@ def generar_fill_in_the_blanks(
         )
 
         texto = re.sub(
-            r"_+",
+            r"\[" + str(espacio.numero) + r"\]" if marcadores_numerados else r"_+",
             lambda _: blanco_h5p,
             texto,
             count=1,

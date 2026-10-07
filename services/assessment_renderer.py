@@ -12,6 +12,9 @@ def renderizar_actividad_desarrollo(
 ) -> str:
     partes = []
 
+    if actividad.descripcion:
+        partes.append(f'<p>{escape(actividad.descripcion.strip())}</p>')
+
     if actividad.escenario.strip():
         partes.append(
             '<div class="cm-assessment-scenario">'
@@ -63,6 +66,9 @@ def renderizar_actividad_discusion(
     actividad: ActividadDiscusion,
 ) -> str:
     partes = []
+
+    if actividad.descripcion:
+        partes.append(f'<p>{escape(actividad.descripcion.strip())}</p>')
 
     if actividad.caso.strip():
         partes.append(

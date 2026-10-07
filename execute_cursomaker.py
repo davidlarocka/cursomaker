@@ -52,6 +52,12 @@ def main():
             print(f"Curso Moodle ID: {contexto.moodle_curso_id}")
             print(f"Resumen: {contexto.moodle_report_path}")
             print(f"Actividades pendientes: {contexto.moodle_resultado['assessment']['pendientes']}")
+            for actividad in contexto.moodle_resultado['assessment']['resultados']:
+                if actividad.get('estado') == 'pendiente':
+                    titulo = actividad.get('titulo') or actividad['id_logico']
+                    modulo = actividad.get('modulo')
+                    prefijo = f"Módulo {modulo}: " if modulo is not None else ""
+                    print(f"  - {prefijo}{titulo} [{actividad['id_logico']}]: {actividad['razon']}")
 
 
 if __name__ == "__main__":

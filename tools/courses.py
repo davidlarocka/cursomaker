@@ -49,7 +49,7 @@ def flatten_moodle_params(data, prefix=""):
 
     return params
 
-def _moodle_request(function, params=None):
+def _moodle_request(function, params=None, timeout=10):
     """
     Ejecuta una petición REST contra Moodle.
     """
@@ -76,7 +76,7 @@ def _moodle_request(function, params=None):
     response = requests.post(
         endpoint,
         data=data,
-        timeout=10
+        timeout=timeout
     )
 
     response.raise_for_status()
@@ -468,7 +468,7 @@ def obtener_pagina(curso_id, coursemodule_id):
         "coursemodule_id": coursemodule_id,
     }
     
-def subir_imagen_pagina(
+def subir_archivo_pagina(
     coursemodule_id,
     ruta_imagen,
 ):
@@ -512,6 +512,34 @@ def subir_imagen_pagina(
             "no coincide con el archivo local."
         )
 
+    return resultado
+
+
+def subir_imagen_pagina(coursemodule_id, ruta_imagen):
+    return subir_archivo_pagina(coursemodule_id, ruta_imagen)
+
+
+def eliminar_paginas(coursemodule_ids):
+    """Elimina únicamente los módulos identificados por el ejecutor."""
+    for cmid in coursemodule_ids:
+        _moodle_request("core_course_delete_modules", {"cmids[0]": cmid})
+
+
+def crear_pdf_protect(curso_id, seccion_numero, nombre, ruta_pdf, existing_cmid=0):
+    """Crea mod_pdfprotect usando la extensión web de local_cursomaker."""
+    ruta = Path(ruta_pdf)
+    if not ruta.is_file() or ruta.suffix.lower() != ".pdf":
+        raise ValueError(f"PDF inválido para PDF Protect: {ruta}")
+    resultado = _moodle_request("local_cursomaker_create_pdfprotect", {
+        "courseid": curso_id,
+        "section": seccion_numero,
+        "name": nombre,
+        "filename": ruta.name,
+        "contentbase64": base64.b64encode(ruta.read_bytes()).decode("ascii"),
+        "existingcmid": existing_cmid,
+    }, timeout=120)
+    if not isinstance(resultado, dict) or not resultado.get("coursemoduleid"):
+        raise RuntimeError("Moodle no confirmó la creación del recurso PDF Protect.")
     return resultado
 
 def crear_assignment(
